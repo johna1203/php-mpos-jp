@@ -68,7 +68,7 @@
         <input type="hidden" name="do" value="cashOut">
         <article class="module width_half">
             <header>
-                <h3>Cash Out</h3>
+                <h3>キャッシュアウト</h3>
             </header>
             <div class="module_content">
                 <p style="padding-left:30px; padding-redight:30px; font-size:10px;">
