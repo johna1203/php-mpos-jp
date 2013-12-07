@@ -19,6 +19,6 @@
     </div>
   </div>
   <footer>
-    <p style="margin-left: 25px">Refresh interval: {$GLOBAL.config.statistics_ajax_refresh_interval|default:"10"} seconds. Hashrate based on shares submitted in the past {$INTERVAL|default:"5"} minutes.</p>
+    <p style="margin-left: 25px">更新間隔: {$GLOBAL.config.statistics_ajax_refresh_interval|default:"10"} 秒. Hashrate based on shares submitted in the past {$INTERVAL|default:"5"} minutes.</p>
   </footer>
 </article>

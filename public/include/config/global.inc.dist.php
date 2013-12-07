@@ -372,7 +372,7 @@ $config['pps']['blockavg']['blockcount'] = 10;
  *   expiration  =  90
  *   splay       =  15
  **/
-$config['memcache']['enabled'] = true;
+$config['memcache']['enabled'] = false;
 $config['memcache']['host'] = 'localhost';
 $config['memcache']['port'] = 11211;
 $config['memcache']['keyprefix'] = 'mpos_';
