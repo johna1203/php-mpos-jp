@@ -3,7 +3,7 @@
   <input type="hidden" name="action" value="{$smarty.request.action|escape}">
   <input type="hidden" name="do" value="updateAccount">
   <article class="module width_half">
-    <header><h3>Account Details</h3></header>
+    <header><h3>アカウント詳細</h3></header>
     <div class="module_content">
       <fieldset>
         <label>Username</label>
