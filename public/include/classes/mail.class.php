@@ -60,14 +60,14 @@ class Mail extends Base {
     $this->smarty->assign('WEBSITENAME', $this->setting->getValue('website_name'));
     $this->smarty->assign('SUBJECT', $aData['subject']);
     $this->smarty->assign('DATA', $aData);
-    $headers = 'From: Website Administration <' . $this->setting->getValue('website_email') . ">\n";
+    $sender = $this->setting->getValue('website_email');
+    $headers = 'From: Website Administration <' . $sender . ">\n";
     $headers .= "MIME-Version: 1.0\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
     if (strlen(@$aData['senderName']) > 0 && @strlen($aData['senderEmail']) > 0 ) {
       $headers .= 'Reply-To: ' . $aData['senderName'] . ' <' . $aData['senderEmail'] . ">\n";
     } else {
-        $sender = $this->setting->getValue('website_email');
-        $headers .= 'Reply-To: ' . $sender . "\n";
+        $headers .= 'Reply-To: Website Administration <' . $sender . ">\n";
     }
 
 
