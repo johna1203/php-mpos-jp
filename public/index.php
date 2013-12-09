@@ -27,13 +27,15 @@ define("BASEPATH", "./");
 // Our security check
 define("SECURITY", 1);
 
+ini_set('display_errors', 1);
+
 // Include our configuration (holding defines for the requires)
 if (!include_once(BASEPATH . 'include/config/global.inc.php')) die('Unable to load site configuration');
 
 // Start a session
-session_set_cookie_params(time()+$config['cookie']['duration'], $config['cookie']['path'], $config['cookie']['domain'], $config['cookie']['secure'], $config['cookie']['httponly']);
+session_set_cookie_params(time() + $config['cookie']['duration'], $config['cookie']['path'], $config['cookie']['domain'], $config['cookie']['secure'], $config['cookie']['httponly']);
 session_start();
-setcookie(session_name(),session_id(),time()+$config['cookie']['duration'], $config['cookie']['path'], $config['cookie']['domain'], $config['cookie']['secure'], $config['cookie']['httponly']);
+setcookie(session_name(), session_id(), time() + $config['cookie']['duration'], $config['cookie']['path'], $config['cookie']['domain'], $config['cookie']['secure'], $config['cookie']['httponly']);
 $session_id = session_id();
 
 // Load Classes, they name defines the $ variable used
@@ -43,8 +45,8 @@ require_once(INCLUDE_DIR . '/autoloader.inc.php');
 // Create our pages array from existing files
 if (is_dir(INCLUDE_DIR . '/pages/')) {
     foreach (glob(INCLUDE_DIR . '/pages/*.inc.php') as $filepath) {
-        $filename = basename($filepath);
-        $pagename = substr($filename, 0, strlen($filename) - 8);
+        $filename            = basename($filepath);
+        $pagename            = substr($filename, 0, strlen($filename) - 8);
         $arrPages[$pagename] = $filename;
         $debug->append("Adding $pagename as " . $filename . " to accessible pages", 4);
     }
@@ -52,18 +54,18 @@ if (is_dir(INCLUDE_DIR . '/pages/')) {
 
 // Set a default action here if no page has been requested
 if (isset($_REQUEST['page']) && isset($arrPages[$_REQUEST['page']])) {
-  $page = $_REQUEST['page'];
-} else if (isset($_REQUEST['page']) && ! isset($arrPages[$_REQUEST['page']])) {
-  $page = 'error';
+    $page = $_REQUEST['page'];
+} else if (isset($_REQUEST['page']) && !isset($arrPages[$_REQUEST['page']])) {
+    $page = 'error';
 } else {
-  $page = 'home';
+    $page = 'home';
 }
 
 // Create our pages array from existing files
 if (is_dir(INCLUDE_DIR . '/pages/' . $page)) {
     foreach (glob(INCLUDE_DIR . '/pages/' . $page . '/*.inc.php') as $filepath) {
-        $filename = basename($filepath);
-        $pagename = substr($filename, 0, strlen($filename) - 8);
+        $filename              = basename($filepath);
+        $pagename              = substr($filename, 0, strlen($filename) - 8);
         $arrActions[$pagename] = $filename;
         $debug->append("Adding $pagename as " . $filename . ".inc.php to accessible actions", 4);
     }
