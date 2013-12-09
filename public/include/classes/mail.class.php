@@ -67,7 +67,7 @@ class Mail extends Base {
       $headers .= 'Reply-To: ' . $aData['senderName'] . ' <' . $aData['senderEmail'] . ">\n";
     } else {
         $sender = $this->setting->getValue('website_email');
-        $headers .= 'Reply-To: ' . $sender . ">\n";
+        $headers .= 'Reply-To: ' . $sender . "\n";
     }
 
 
