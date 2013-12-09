@@ -47,7 +47,7 @@
 	<section id="main" class="column">
     {if is_array($smarty.session.POPUP|default)}
       {section popup $smarty.session.POPUP}
-        <h4 class="{$smarty.session.POPUP[popup].TYPE|default:"info"}">{$smarty.session.POPUP[popup].CONTENT} もえもえ！</h4>
+        <h4 class="{$smarty.session.POPUP[popup].TYPE|default:"info"}">{$smarty.session.POPUP[popup].CONTENT}</h4>
       {/section}
     {/if}
     {if $CONTENT != "empty" or $CONTENT != ""}{if file_exists($smarty.current_dir|cat:"/$PAGE/$ACTION/$CONTENT")}{include file="$PAGE/$ACTION/$CONTENT"}{else}Missing template for this page{/if}{/if}
