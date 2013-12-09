@@ -35,8 +35,6 @@ class Mail extends Base {
     }
     $aData['senderName'] = $senderName;
     $aData['senderEmail'] = $senderEmail;
-    $aData['senderSubject'] = $senderSubject;
-    $aData['senderMessage'] = $senderMessage;
     $aData['email'] = $this->setting->getValue('website_email');
     $aData['subject'] = 'Contact From';
       if ($this->sendMail('contactform/body', $aData)) {
@@ -65,8 +63,14 @@ class Mail extends Base {
     $headers = 'From: Website Administration <' . $this->setting->getValue('website_email') . ">\n";
     $headers .= "MIME-Version: 1.0\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-    if (strlen(@$aData['senderName']) > 0 && @strlen($aData['senderEmail']) > 0 )
+    if (strlen(@$aData['senderName']) > 0 && @strlen($aData['senderEmail']) > 0 ) {
       $headers .= 'Reply-To: ' . $aData['senderName'] . ' <' . $aData['senderEmail'] . ">\n";
+    } else {
+        $sender = $this->setting->getValue('website_email');
+        $headers .= 'Reply-To: ' . $sender . ">\n";
+    }
+
+
     if (mail($aData['email'], $this->smarty->fetch(BASEPATH . 'templates/mail/subject.tpl'), $this->smarty->fetch(BASEPATH . 'templates/mail/' . $template  . '.tpl'), $headers))
       return true;
     $this->setErrorMessage($this->sqlError('E0031'));
