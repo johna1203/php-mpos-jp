@@ -1,0 +1,14 @@
+{
+    "name": "johna1203/php-mpos-jp",
+    "description": "日本語化",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Johnathan",
+            "email": "johnathan@kodokuman.com"
+        }
+    ],
+    "require": {
+        "zendframework/zend-i18n": "dev-master"
+    }
+}
