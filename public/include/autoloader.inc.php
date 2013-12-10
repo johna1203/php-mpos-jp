@@ -31,6 +31,7 @@ if ($detect->isMobile() && $setting->getValue('website_mobile_theme')) {
 define('THEME', $theme);
 
 // Load smarty now that we have our theme defined
+require_once(INCLUDE_DIR . '/gettext.inc.php');
 require_once(INCLUDE_DIR . '/smarty.inc.php');
 
 // Load everything else in proper order

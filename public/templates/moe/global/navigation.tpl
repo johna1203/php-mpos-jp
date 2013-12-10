@@ -1,7 +1,7 @@
     <hr/>
     <li class="icon-home"><a href="{$smarty.server.PHP_SELF}">Home</a></li>
     {if $smarty.session.AUTHENTICATED|default:"0" == 1}
-    <h3>アカウント</h3>
+    <h3>{t}My Account{/t}</h3>
     <ul class="toggle">
       <li class="icon-gauge"><a href="{$smarty.server.PHP_SELF}?page=dashboard">Dashboard</a></li>
       <li class="icon-user"><a href="{$smarty.server.PHP_SELF}?page=account&action=edit">Edit Account</a></li>
