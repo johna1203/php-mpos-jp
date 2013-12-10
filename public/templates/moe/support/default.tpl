@@ -4,11 +4,17 @@
         <center>
             <table width="100%">
                 <p>
-                    質問や疑問がある場合は、<a href="https://github.com/johna1203/php-mpos-jp/issues">Githubのissues</a>に書き込んで頂ければと思います。
+                    質問や疑問がある場合は、
+                    <a href="https://github.com/johna1203/php-mpos-jp/issues">Githubのissues</a>
+                    に書き込んで頂ければと思います。
+                </p>
+                <p>
+                    moepoolの、Twitterがありますのでそちらも活用ください、
+                    <a href="https://twitter.com/MoePool1">@MoePool1</a>
                 </p>
                 {*<p>*}
-                    {*もしくは、rika＠moepool.comにメールして下さいできる限りのサポートを行ないたいと思っております。*}
-                    {*※メールアドレスのアットマークが全角になっておりますのでコピペする場合は半角に書き換えて下さい。*}
+                {*もしくは、rika＠moepool.comにメールして下さいできる限りのサポートを行ないたいと思っております。*}
+                {*※メールアドレスのアットマークが全角になっておりますのでコピペする場合は半角に書き換えて下さい。*}
                 {*</p>*}
             </table>
         </center>
