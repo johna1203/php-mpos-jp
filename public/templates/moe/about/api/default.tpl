@@ -1,5 +1,5 @@
 <article class="module width_full">
-<header><h3>API Reference</h3></header>
+<header><h3>{t}API Reference{/t}</h3></header>
 <div class="module_content">
 <center>
 <table width="100%">

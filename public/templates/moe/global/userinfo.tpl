@@ -1,7 +1,7 @@
     <div class="user">
 {if $GLOBAL.userdata.username|default}
-            <p>Welcome {$smarty.session.USERDATA.username|escape}</p>
+            <p>{t escape=yes name=$smarty.session.USERDATA.username|escape}Welcome %1{/t}</p>
 {else}
-            <p>Welcome Guest</p>
+            <p>{t}Welcome Guest{/t}</p>
 {/if}
     </div>
