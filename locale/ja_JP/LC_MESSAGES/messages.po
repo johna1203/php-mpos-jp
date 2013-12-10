@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-10 15:13-0300\n"
-"PO-Revision-Date: 2013-12-10 15:14-0300\n"
+"POT-Creation-Date: 2013-12-10 16:11-0300\n"
+"PO-Revision-Date: 2013-12-10 16:31-0300\n"
 "Last-Translator: Johnathan David <johnathan@kodokuman.com>\n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -30,8 +30,9 @@ msgid "Account Details"
 msgstr "アカウント詳細"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:11
-#: /Users/johna/github.com/php-mpos/smarty.c:251
-#: /Users/johna/github.com/php-mpos/smarty.c:263
+#: /Users/johna/github.com/php-mpos/smarty.c:128
+#: /Users/johna/github.com/php-mpos/smarty.c:332
+#: /Users/johna/github.com/php-mpos/smarty.c:344
 msgid "Username"
 msgstr "ユーザー名"
 
@@ -137,222 +138,364 @@ msgid "New Password Repeat"
 msgstr "確認用のパスワード"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:92
+msgid "Getting Started Guide"
+msgstr "初めての方へ"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:95
+msgid "Create account."
+msgstr "ユーザー登録"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:98
+msgid ""
+"Register <a href=\"%1?page=register\">here</a>, or login if you already have "
+"account"
+msgstr ""
+"まずは、ユーザー登録を<a href=“%1?page=register”>ここから</a>行なうか、既に"
+"ユーザーをお持ちの場合はログインをして下さい。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:101
+msgid ""
+"Create a <a href=\"%1?page=account&action=workers\">worker</a> that will be "
+"used by the miner to login"
+msgstr ""
+"ユーザー登録を<a href=”%1”>こちらから</a>する事でコインを掘るためウォーカーを"
+"作成できるようになります。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:104
+msgid "Download a miner."
+msgstr "マイナーのダウンロード（コインを掘るためのツールです）"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:107
+#: /Users/johna/github.com/php-mpos/smarty.c:110
+msgid "<em>CGMiner %1:</em> <a href=\"%2\" target=\"_blank\">Download here</a>"
+msgstr "<em>CGMiner %1:</em> <a href=”%2” target=”_blank”>ダウンロード</a>"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:113
+msgid ""
+"<em>CPU Miner %1:</em> precompiled binaries are available <a href=\"%2\" "
+"target=\"_blank\">Download here</a>"
+msgstr ""
+"<em>CPU Miner %1:</em> プリコンパイルされたバイナリファイル <a href=”%2” "
+"target=”_blank”>ダウンロード</a>"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:116
+msgid "Configure your miner."
+msgstr "マイナーの設定"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:119
+msgid "Settings for Stratum (recommended):"
+msgstr "Stratumの設定 (推奨):"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:122
+msgid "STRATUM"
+msgstr "STRATUM"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:125
+msgid "PORT"
+msgstr "ポート番号"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:131
+#: /Users/johna/github.com/php-mpos/smarty.c:323
+#: /Users/johna/github.com/php-mpos/smarty.c:335
+#: /Users/johna/github.com/php-mpos/smarty.c:347
+msgid "Password"
+msgstr "パスワード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:134
+msgid "Worker Password"
+msgstr "ウォーカーのパスワード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:137
+msgid "If you use a command-line miner, type:"
+msgstr "コマンドラインでマイナーを使う場合 : "
+
+#: /Users/johna/github.com/php-mpos/smarty.c:140
+msgid "Weblogin"
+msgstr "ログインユーザー名"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:143
+msgid "Worker"
+msgstr "ウォーカー"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:146
+msgid "Worker password"
+msgstr "ウォーカーのパスワード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:149
+msgid ""
+"If you want, you can create additional workers with usernames and passwords "
+"of your choice <a href=\"%1?page=account&action=workers\">Here</a>"
+msgstr ""
+"新規にウォーカーを作成したい場合は <a href=”%1?page=account&action=workers”>"
+"こちらの</a>リンクから、ウォーカーを作成しパスワードを決める事ができます。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:152
+msgid "Create a %1 address to recieve payments."
+msgstr "支払い用のアドレスを作成します。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:155
+msgid ""
+"Generate a new address and input it on your account page to receive payments."
+msgstr ""
+"掘って手に入れたコインの支払いを貰う為には、支払い用のアドレスを生成する必要"
+"ができます。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:158
+msgid "Advanced cgminer settings / FAQ"
+msgstr "cgmainerの詳細な設定 / FAQ"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:161
+#, fuzzy
+msgid ""
+"Don't set <b>intensity</b> too high, I=11 is standard and safest. Higher "
+"intensity takes more GPU RAM. Check for <b>hardware errors</b> in cgminer "
+"(HW). HW=0 is good, otherwise lower intensity :)"
+msgstr ""
+"Don’t set <b>intensity</b> too high, I=11 is standard and safest. Higher "
+"intensity takes more GPU RAM. Check for <b>hardware errors</b> in cgminer "
+"(HW). HW=0 is good, otherwise lower intensity :)"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:164
+#, fuzzy
+msgid ""
+"Set shaders according to the readme (or look at your graphic cards "
+"specifications). Cgminer uses this value at first run to calculate <b>thread-"
+"concurrency</b>. Easiest way to get this optimized is to use same settings "
+"as others have used here: <a href=\"%1\">here</a>."
+msgstr ""
+"Set shaders according to the readme (or look at your graphic cards "
+"specifications). Cgminer uses this value at first run to calculate <b>thread-"
+"concurrency</b>. Easiest way to get this optimized is to use same settings "
+"as others have used here: <a href=”%1”>here</a>."
+
+#: /Users/johna/github.com/php-mpos/smarty.c:167
+#, fuzzy
+msgid ""
+"There's also an interesting project which gives you a GUI for cgminer. "
+"Windows only it seems."
+msgstr ""
+"There’s also an interesting project which gives you a GUI for cgminer. "
+"Windows only it seems."
+
+#: /Users/johna/github.com/php-mpos/smarty.c:170
+msgid ""
+"Here's a great <a href=\"%1\" target=\"_blank\">guide</a> how to get up and "
+"running with Xubuntu."
+msgstr ""
+"Xubuntuを使って、始める為方法が<a href=“%1”>こちらのサイト</a>で説明されてお"
+"ります。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:173
 msgid "Home"
 msgstr "ホーム"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:95
+#: /Users/johna/github.com/php-mpos/smarty.c:176
 msgid "My Account"
 msgstr "アカウント"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:98
+#: /Users/johna/github.com/php-mpos/smarty.c:179
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:101
+#: /Users/johna/github.com/php-mpos/smarty.c:182
 msgid "Edit Account"
 msgstr "アカウント編集"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:104
+#: /Users/johna/github.com/php-mpos/smarty.c:185
 msgid "My Workers"
 msgstr "ウォーカー"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:107
-#: /Users/johna/github.com/php-mpos/smarty.c:131
+#: /Users/johna/github.com/php-mpos/smarty.c:188
+#: /Users/johna/github.com/php-mpos/smarty.c:212
 msgid "Transactions"
 msgstr "トランザクション"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:110
+#: /Users/johna/github.com/php-mpos/smarty.c:191
 msgid "Notifications"
 msgstr "通知"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:113
+#: /Users/johna/github.com/php-mpos/smarty.c:194
 msgid "Invitations"
 msgstr "友達を招待"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:116
+#: /Users/johna/github.com/php-mpos/smarty.c:197
 msgid "QR Codes"
 msgstr "QRコード"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:119
+#: /Users/johna/github.com/php-mpos/smarty.c:200
 msgid "Admin Panel"
 msgstr "管理画面"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:122
+#: /Users/johna/github.com/php-mpos/smarty.c:203
 msgid "Monitoring"
 msgstr "モニタリング"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:125
+#: /Users/johna/github.com/php-mpos/smarty.c:206
 msgid "User Info"
 msgstr "ユーザー情報"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:128
+#: /Users/johna/github.com/php-mpos/smarty.c:209
 msgid "Wallet Info"
 msgstr "ウォレット情報(財布)"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:134
+#: /Users/johna/github.com/php-mpos/smarty.c:215
 msgid "Settings"
 msgstr "設定"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:137
+#: /Users/johna/github.com/php-mpos/smarty.c:218
 msgid "News"
 msgstr "ニュース"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:140
+#: /Users/johna/github.com/php-mpos/smarty.c:221
 msgid "Reports"
 msgstr "レポート"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:143
+#: /Users/johna/github.com/php-mpos/smarty.c:224
 msgid "Pool Workers"
 msgstr "プール・ウォーカー"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:146
-#: /Users/johna/github.com/php-mpos/smarty.c:167
-#: /Users/johna/github.com/php-mpos/smarty.c:173
+#: /Users/johna/github.com/php-mpos/smarty.c:227
+#: /Users/johna/github.com/php-mpos/smarty.c:248
+#: /Users/johna/github.com/php-mpos/smarty.c:254
 msgid "Statistics"
 msgstr "統計"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:149
-#: /Users/johna/github.com/php-mpos/smarty.c:170
+#: /Users/johna/github.com/php-mpos/smarty.c:230
+#: /Users/johna/github.com/php-mpos/smarty.c:251
 msgid "Pool"
 msgstr "プール"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:152
-#: /Users/johna/github.com/php-mpos/smarty.c:176
+#: /Users/johna/github.com/php-mpos/smarty.c:233
+#: /Users/johna/github.com/php-mpos/smarty.c:257
 msgid "Blocks"
 msgstr "ブロック"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:155
+#: /Users/johna/github.com/php-mpos/smarty.c:236
 msgid "Graphs"
 msgstr "グラフ"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:158
-#: /Users/johna/github.com/php-mpos/smarty.c:179
+#: /Users/johna/github.com/php-mpos/smarty.c:239
+#: /Users/johna/github.com/php-mpos/smarty.c:260
 msgid "Round"
 msgstr "ラウンド"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:161
-#: /Users/johna/github.com/php-mpos/smarty.c:182
+#: /Users/johna/github.com/php-mpos/smarty.c:242
+#: /Users/johna/github.com/php-mpos/smarty.c:263
 msgid "Finder"
 msgstr "ファインダー"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:164
-#: /Users/johna/github.com/php-mpos/smarty.c:185
+#: /Users/johna/github.com/php-mpos/smarty.c:245
+#: /Users/johna/github.com/php-mpos/smarty.c:266
 msgid "Uptime"
 msgstr "更新間隔"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:188
+#: /Users/johna/github.com/php-mpos/smarty.c:269
 msgid "Help"
 msgstr "ヘルプ"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:191
+#: /Users/johna/github.com/php-mpos/smarty.c:272
 msgid "Getting Started"
 msgstr "はじめに"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:194
+#: /Users/johna/github.com/php-mpos/smarty.c:275
 msgid "About"
 msgstr "アバウト"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:197
+#: /Users/johna/github.com/php-mpos/smarty.c:278
 msgid "Donors"
 msgstr "提供者"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:200
+#: /Users/johna/github.com/php-mpos/smarty.c:281
 msgid "Other"
 msgstr "その他"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:203
-#: /Users/johna/github.com/php-mpos/smarty.c:215
+#: /Users/johna/github.com/php-mpos/smarty.c:284
+#: /Users/johna/github.com/php-mpos/smarty.c:296
 msgid "Support"
 msgstr "サポート"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:206
+#: /Users/johna/github.com/php-mpos/smarty.c:287
 msgid "Logout"
 msgstr "ログアウト"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:209
-#: /Users/johna/github.com/php-mpos/smarty.c:248
-#: /Users/johna/github.com/php-mpos/smarty.c:257
+#: /Users/johna/github.com/php-mpos/smarty.c:290
+#: /Users/johna/github.com/php-mpos/smarty.c:329
+#: /Users/johna/github.com/php-mpos/smarty.c:338
 msgid "Login"
 msgstr "ログイン"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:212
+#: /Users/johna/github.com/php-mpos/smarty.c:293
 msgid "Sign Up"
 msgstr "ユーザー登録"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:218
+#: /Users/johna/github.com/php-mpos/smarty.c:299
 msgid "LIVE STATS"
 msgstr "ライブ"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:221
+#: /Users/johna/github.com/php-mpos/smarty.c:302
 #, fuzzy
 msgid "Miners"
 msgstr "マイナー (鉱夫)"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:224
+#: /Users/johna/github.com/php-mpos/smarty.c:305
 #, fuzzy
 msgid "Active Miners"
 msgstr "有効なマイナー"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:227
+#: /Users/johna/github.com/php-mpos/smarty.c:308
 msgid "Pool Hasrate"
 msgstr "プールハッシュレート"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:230
+#: /Users/johna/github.com/php-mpos/smarty.c:311
 msgid "Welcome %1"
 msgstr "%1様、ようこそ"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:233
+#: /Users/johna/github.com/php-mpos/smarty.c:314
 msgid "Welcome Guest"
 msgstr "ようこそ、ゲストさん"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:236
+#: /Users/johna/github.com/php-mpos/smarty.c:317
 msgid "Login with existing account"
 msgstr "ユーザー名を入力してログインボタンを押して下さい。"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:239
+#: /Users/johna/github.com/php-mpos/smarty.c:320
 msgid "Username or E-Mail"
 msgstr "ユーザー名もしはメールアドレス"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:242
-#: /Users/johna/github.com/php-mpos/smarty.c:254
-#: /Users/johna/github.com/php-mpos/smarty.c:266
-msgid "Password"
-msgstr "パスワード"
-
-#: /Users/johna/github.com/php-mpos/smarty.c:245
+#: /Users/johna/github.com/php-mpos/smarty.c:326
 msgid "Forgot your password?"
 msgstr "パスワード忘れの場合"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:260
+#: /Users/johna/github.com/php-mpos/smarty.c:341
 msgid "Register new account"
 msgstr "ユーザー登録フォーム"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:269
+#: /Users/johna/github.com/php-mpos/smarty.c:350
 msgid "Repeat Password"
 msgstr "確認用パスワード"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:272
+#: /Users/johna/github.com/php-mpos/smarty.c:353
 msgid "Email"
 msgstr "メールアドレス"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:275
+#: /Users/johna/github.com/php-mpos/smarty.c:356
 msgid "Email Repeat"
 msgstr "確認用のメールアドレス"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:278
+#: /Users/johna/github.com/php-mpos/smarty.c:359
 #, fuzzy
 msgid "PIN"
 msgstr "４桁のPIN"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:281
+#: /Users/johna/github.com/php-mpos/smarty.c:362
 msgid "4 digit number. <b>Remember this pin!</b>"
 msgstr ""
 "４桁の数字を入力して下さい。（入力した数字を忘れないようにして下さい。）"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:284
+#: /Users/johna/github.com/php-mpos/smarty.c:365
 msgid "Register"
 msgstr "ユーザ登録"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:287
+#: /Users/johna/github.com/php-mpos/smarty.c:368
 msgid "We are currently not accepting new user registrations."
 msgstr "現在新規ユーザーが登録できなくなっております。"
