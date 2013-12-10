@@ -1,5 +1,5 @@
 <article class="module width_quarter">
-  <header><h3>Register new account</h3></header>
+  <header><h3>{t}Register new account{/t}</h3></header>
   <div class="module_content">
   <form action="{$smarty.server.PHP_SELF}" method="post">
     <input type="hidden" name="page" value="{$smarty.request.page|escape}">
