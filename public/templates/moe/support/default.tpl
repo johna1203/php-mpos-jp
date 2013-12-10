@@ -8,9 +8,11 @@
                     <a href="https://github.com/johna1203/php-mpos-jp/issues">Githubのissues</a>
                     に書き込んで頂ければと思います。
                 </p>
+                <p>Twitter,Facebookもありますのでフォローをお願い致します。</p>
                 <p>
-                    moepoolの、Twitterがありますのでそちらも活用ください、
-                    <a href="https://twitter.com/MoePool1">@MoePool1</a>
+                    Twitter : <a href="https://twitter.com/MoePool1">@MoePool1</a>
+                    <br />
+                    Facebook : <a href="https://www.facebook.com/moepool">https://www.facebook.com/moepool</a>
                 </p>
                 {*<p>*}
                 {*もしくは、rika＠moepool.comにメールして下さいできる限りのサポートを行ないたいと思っております。*}
