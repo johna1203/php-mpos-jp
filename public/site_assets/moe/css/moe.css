@@ -1,0 +1,4 @@
+header#header h1.site_title {
+    background: url("../images/moe/moe_title.png") no-repeat left center;
+    padding-left: 30px;
+}
