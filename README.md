@@ -14,6 +14,14 @@ gettextを採用しましたので。
 [萌えプール http://moepool.com/] (http://moepool.com/)
 
 
+翻訳の問い合わせについて、
+
+[Issues](https://github.com/johna1203/php-mpos-jp/issues)を書き込むか、直接Twitterまたは、Facebookのページを活用下さい。
+
+[Twitter](https://twitter.com/MoePool1)
+
+[Facebook](https://www.facebook.com/moepool)
+
 翻訳について、
 ==================
 
