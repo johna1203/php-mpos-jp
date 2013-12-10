@@ -7,6 +7,9 @@ $domain    = "messages";
 putenv("LANG=$language");
 $res = setlocale(LC_ALL, $language);
 var_dump($res);
+
+system('locale -a');
+
 bind_textdomain_codeset($domain, "UTF-8");
 bindtextdomain($domain, $localeDir);
 textdomain($domain);
