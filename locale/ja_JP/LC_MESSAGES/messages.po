@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
 "POT-Creation-Date: 2013-12-10 16:11-0300\n"
-"PO-Revision-Date: 2013-12-10 16:31-0300\n"
+"PO-Revision-Date: 2013-12-10 18:07-0300\n"
 "Last-Translator: Johnathan David <johnathan@kodokuman.com>\n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -448,7 +448,7 @@ msgstr "プールハッシュレート"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:311
 msgid "Welcome %1"
-msgstr "%1様、ようこそ"
+msgstr "おかえり〜、%1様"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:314
 msgid "Welcome Guest"
