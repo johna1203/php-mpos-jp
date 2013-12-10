@@ -11,7 +11,7 @@ gettextを採用しましたので。
 
 実際に、このバージョンで動いているサイト
 
-[萌えプール] (http://moepool.com/)
+[萌えプール http://moepool.com/] (http://moepool.com/)
 
 
 翻訳について、
