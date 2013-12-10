@@ -180,3 +180,12 @@ limitations under the License.
 
   [1]: https://github.com/TheSerapher/php-mpos/issues "Issue"
   [2]: http://www.smarty.net/docs/en/ "Smarty"
+
+追記情報
+==================
+
+翻訳文字列をファイル内で検出する
+
+$ php tsmarty2c.php public/templates/ > smarty.c
+
+
