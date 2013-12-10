@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 1);
 // 変換テーブルの場所を指定します
-echo $localeDir = realpath(__DIR__ . '/../../locale');
+$localeDir = realpath(__DIR__ . '/../../locale');
 $language  = 'ja_JP.UTF-8';
 $domain    = "messages";
 putenv("LANG=$language");
