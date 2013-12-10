@@ -13,5 +13,5 @@ gettextを採用しましたので。
 翻訳について、
 ==================
 
-I18N.md を呼んで下さい
+[I18N.md](https://github.com/johna1203/php-mpos-jp/blob/moe-template/I18N.md) を呼んで下さい
 
