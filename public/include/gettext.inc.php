@@ -2,13 +2,13 @@
 ini_set('display_errors', 1);
 // 変換テーブルの場所を指定します
 $localeDir = realpath(__DIR__ . '/../../locale');
-$language  = 'ja_JP.utf8';
+$language  = GetPrefLanguage(isset($_SERVER["HTTP_ACCEPT_LANGUAGE"]) ? $_SERVER["HTTP_ACCEPT_LANGUAGE"] : 'ja') . '.utf8';
 $domain    = "messages";
 putenv("LANG=$language");
-$res = setlocale(LC_ALL, $language);
-var_dump($res);
-
-//system('locale -a');
+if (!setlocale(LC_ALL, $language)) {
+    $language = "ja_JP.utf8";
+    setlocale(LC_ALL, $language);
+}
 
 bind_textdomain_codeset($domain, "UTF8");
 bindtextdomain($domain, $localeDir);
