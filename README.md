@@ -9,6 +9,10 @@ gettextを採用しましたので。
 
 [php-mpos](https://github.com/TheSerapher/php-mpos) について知りたい人は, fork元の [php-mpos](https://github.com/TheSerapher/php-mpos) のページを見て下さい。
 
+実際に、このバージョンで動いているサイト
+
+[萌えプール] (http://moepool.com/)
+
 
 翻訳について、
 ==================
