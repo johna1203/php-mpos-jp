@@ -5,6 +5,7 @@ $localeDir = realpath(__DIR__ . '/../../locale');
 $language  = 'ja_JP.UTF-8';
 $domain    = "messages";
 putenv("LANG=$language");
+putenv("LANGUAGE=$language");
 setlocale(LC_ALL, $language);
 setlocale(LC_MESSAGES, $language);
 textdomain($domain);
