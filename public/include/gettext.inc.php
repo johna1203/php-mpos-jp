@@ -10,7 +10,7 @@ bind_textdomain_codeset($domain, "UTF-8");
 bindtextdomain($domain, $localeDir);
 textdomain($domain);
 
-//echo gettext("My Account");
+echo gettext("My Account");
 
 function GetPrefLanguage($str_http_languages)
 {
