@@ -10,7 +10,7 @@ setlocale(LC_MESSAGES, $language);
 textdomain($domain);
 bindtextdomain($domain, $localeDir);
 
-echo gettext("My Account");
+//echo gettext("My Account");
 
 function GetPrefLanguage($str_http_languages)
 {
