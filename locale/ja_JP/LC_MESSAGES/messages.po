@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-10 14:27-0300\n"
-"PO-Revision-Date: 2013-12-10 14:28-0300\n"
+"POT-Creation-Date: 2013-12-10 15:00-0300\n"
+"PO-Revision-Date: 2013-12-10 15:00-0300\n"
 "Last-Translator: Johnathan David <johnathan@kodokuman.com>\n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -16,169 +16,288 @@ msgstr ""
 "X-Poedit-SearchPath-0: /Users/johna/github.com/php-mpos\n"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:2
+msgid "API Reference"
+msgstr "API リファレンス"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:5
+msgid ""
+"Please head over to the <a href=\"%1\">official documentation</a> to learn "
+"about the API featured in <b>MPOS</b>."
+msgstr "<b>MPOS</b>の<a href=”%1”>APIドキュメント</a>のURLです。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:8
+msgid "Account Details"
+msgstr "アカウント詳細"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:11
+msgid "Username"
+msgstr "ユーザー名"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:14
+msgid "User Id"
+msgstr "ユーザーID"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:17
+msgid "API Key"
+msgstr "APIキー"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:20
+msgid "E-Mail"
+msgstr "メールアドレス"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:23
+msgid "Payment Address"
+msgstr "支払い用のアドレス (ウォレットのアドレス)"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:26
+msgid "Donation Percentage"
+msgstr "寄付のパーセンテージ"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:29
+msgid " Donation amount in percent (example: 0.5)"
+msgstr "寄付のパーセンテージを入力方法は小数点を使って下さい (例 : 0.5)"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:32
+msgid "Automatic Payout Threshold"
+msgstr "自動支払い有効"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:35
+msgid "%1-%2 %3. Set to '0' for no auto payout."
+msgstr ""
+"自動支払いを無効にする場合は ‘0’ を入力して下さい。入力可能値は %1-%2 %3。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:38
+msgid "Anonymous Account"
+msgstr "偽名"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:41
+msgid ""
+"Hide username on website from others. Admins can still get your user "
+"information."
+msgstr "有効にすると管理者以外の人からユーザー名が隠されます。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:44
+#: /Users/johna/github.com/php-mpos/smarty.c:65
+#: /Users/johna/github.com/php-mpos/smarty.c:86
+msgid "4 digit PIN"
+msgstr "４桁のPIN"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:47
+msgid "The 4 digit PIN you chose when registering"
+msgstr "登録時の4桁のPINを入力"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:50
+msgid "Update Account"
+msgstr "アカウント更新"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:53
+#: /Users/johna/github.com/php-mpos/smarty.c:68
+msgid "Cash Out"
+msgstr "支払い(キャッシュアウト)"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:56
+msgid ""
+"Please note: a %1 %2 transaction will apply when processing \"On-Demand\" "
+"manual payments"
+msgstr ""
+
+#: /Users/johna/github.com/php-mpos/smarty.c:59
+msgid "Account Balance"
+msgstr "アカウントバランス"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:62
+msgid "Payout to"
+msgstr "支払い"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:71
+#: /Users/johna/github.com/php-mpos/smarty.c:89
+msgid "Change Password"
+msgstr "パスワード変更"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:74
+msgid ""
+"Note: You will be redirected to login on successful completion of a password "
+"change"
+msgstr ""
+"注: パスワードの変更に成功すると、ログインに飛ばされますので恐れ入りますが再"
+"度新しいパスワードでログインして下さい。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:77
+msgid "Current Password"
+msgstr "現在のパスワード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:80
+msgid "New Password"
+msgstr "新しいパスワード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:83
+msgid "New Password Repeat"
+msgstr "確認用のパスワード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:92
 msgid "Home"
 msgstr "ホーム"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:5
+#: /Users/johna/github.com/php-mpos/smarty.c:95
 msgid "My Account"
 msgstr "アカウント"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:8
+#: /Users/johna/github.com/php-mpos/smarty.c:98
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:11
+#: /Users/johna/github.com/php-mpos/smarty.c:101
 msgid "Edit Account"
 msgstr "アカウント編集"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:14
+#: /Users/johna/github.com/php-mpos/smarty.c:104
 msgid "My Workers"
 msgstr "ウォーカー"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:17
-#: /Users/johna/github.com/php-mpos/smarty.c:41
+#: /Users/johna/github.com/php-mpos/smarty.c:107
+#: /Users/johna/github.com/php-mpos/smarty.c:131
 msgid "Transactions"
 msgstr "トランザクション"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:20
+#: /Users/johna/github.com/php-mpos/smarty.c:110
 msgid "Notifications"
 msgstr "通知"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:23
+#: /Users/johna/github.com/php-mpos/smarty.c:113
 msgid "Invitations"
 msgstr "友達を招待"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:26
+#: /Users/johna/github.com/php-mpos/smarty.c:116
 msgid "QR Codes"
 msgstr "QRコード"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:29
+#: /Users/johna/github.com/php-mpos/smarty.c:119
 msgid "Admin Panel"
 msgstr "管理画面"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:32
+#: /Users/johna/github.com/php-mpos/smarty.c:122
 msgid "Monitoring"
 msgstr "モニタリング"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:35
+#: /Users/johna/github.com/php-mpos/smarty.c:125
 msgid "User Info"
 msgstr "ユーザー情報"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:38
+#: /Users/johna/github.com/php-mpos/smarty.c:128
 msgid "Wallet Info"
 msgstr "ウォレット情報(財布)"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:44
+#: /Users/johna/github.com/php-mpos/smarty.c:134
 msgid "Settings"
 msgstr "設定"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:47
+#: /Users/johna/github.com/php-mpos/smarty.c:137
 msgid "News"
 msgstr "ニュース"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:50
+#: /Users/johna/github.com/php-mpos/smarty.c:140
 msgid "Reports"
 msgstr "レポート"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:53
+#: /Users/johna/github.com/php-mpos/smarty.c:143
 msgid "Pool Workers"
 msgstr "プール・ウォーカー"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:56
-#: /Users/johna/github.com/php-mpos/smarty.c:77
-#: /Users/johna/github.com/php-mpos/smarty.c:83
+#: /Users/johna/github.com/php-mpos/smarty.c:146
+#: /Users/johna/github.com/php-mpos/smarty.c:167
+#: /Users/johna/github.com/php-mpos/smarty.c:173
 msgid "Statistics"
 msgstr "統計"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:59
-#: /Users/johna/github.com/php-mpos/smarty.c:80
+#: /Users/johna/github.com/php-mpos/smarty.c:149
+#: /Users/johna/github.com/php-mpos/smarty.c:170
 msgid "Pool"
 msgstr "プール"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:62
-#: /Users/johna/github.com/php-mpos/smarty.c:86
+#: /Users/johna/github.com/php-mpos/smarty.c:152
+#: /Users/johna/github.com/php-mpos/smarty.c:176
 msgid "Blocks"
 msgstr "ブロック"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:65
+#: /Users/johna/github.com/php-mpos/smarty.c:155
 msgid "Graphs"
 msgstr "グラフ"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:68
-#: /Users/johna/github.com/php-mpos/smarty.c:89
+#: /Users/johna/github.com/php-mpos/smarty.c:158
+#: /Users/johna/github.com/php-mpos/smarty.c:179
 msgid "Round"
 msgstr "ラウンド"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:71
-#: /Users/johna/github.com/php-mpos/smarty.c:92
+#: /Users/johna/github.com/php-mpos/smarty.c:161
+#: /Users/johna/github.com/php-mpos/smarty.c:182
 msgid "Finder"
 msgstr "ファインダー"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:74
-#: /Users/johna/github.com/php-mpos/smarty.c:95
+#: /Users/johna/github.com/php-mpos/smarty.c:164
+#: /Users/johna/github.com/php-mpos/smarty.c:185
 msgid "Uptime"
 msgstr "更新間隔"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:98
+#: /Users/johna/github.com/php-mpos/smarty.c:188
 msgid "Help"
 msgstr "ヘルプ"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:101
+#: /Users/johna/github.com/php-mpos/smarty.c:191
 msgid "Getting Started"
 msgstr "はじめに"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:104
+#: /Users/johna/github.com/php-mpos/smarty.c:194
 msgid "About"
 msgstr "アバウト"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:107
+#: /Users/johna/github.com/php-mpos/smarty.c:197
 msgid "Donors"
 msgstr "提供者"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:110
+#: /Users/johna/github.com/php-mpos/smarty.c:200
 msgid "Other"
 msgstr "その他"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:113
-#: /Users/johna/github.com/php-mpos/smarty.c:125
+#: /Users/johna/github.com/php-mpos/smarty.c:203
+#: /Users/johna/github.com/php-mpos/smarty.c:215
 msgid "Support"
 msgstr "サポート"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:116
+#: /Users/johna/github.com/php-mpos/smarty.c:206
 msgid "Logout"
 msgstr "ログアウト"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:119
+#: /Users/johna/github.com/php-mpos/smarty.c:209
 msgid "Login"
 msgstr "ログイン"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:122
+#: /Users/johna/github.com/php-mpos/smarty.c:212
 msgid "Sign Up"
 msgstr "ユーザー登録"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:128
+#: /Users/johna/github.com/php-mpos/smarty.c:218
 msgid "LIVE STATS"
 msgstr "ライブ"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:131
+#: /Users/johna/github.com/php-mpos/smarty.c:221
 #, fuzzy
 msgid "Miners"
 msgstr "マイナー (鉱夫)"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:134
+#: /Users/johna/github.com/php-mpos/smarty.c:224
 #, fuzzy
 msgid "Active Miners"
 msgstr "有効なマイナー"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:137
+#: /Users/johna/github.com/php-mpos/smarty.c:227
 msgid "Pool Hasrate"
 msgstr "プールハッシュレート"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:140
+#: /Users/johna/github.com/php-mpos/smarty.c:230
 #, fuzzy
 msgid "Welcome %1"
 msgstr "%1様、ようこそ"
 
-#: /Users/johna/github.com/php-mpos/smarty.c:143
+#: /Users/johna/github.com/php-mpos/smarty.c:233
 msgid "Welcome Guest"
 msgstr "ようこそ、ゲストさん"
