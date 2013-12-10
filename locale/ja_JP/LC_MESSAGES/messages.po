@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-10 15:00-0300\n"
-"PO-Revision-Date: 2013-12-10 15:00-0300\n"
+"POT-Creation-Date: 2013-12-10 15:06-0300\n"
+"PO-Revision-Date: 2013-12-10 15:11-0300\n"
 "Last-Translator: Johnathan David <johnathan@kodokuman.com>\n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -30,6 +30,8 @@ msgid "Account Details"
 msgstr "アカウント詳細"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:11
+#: /Users/johna/github.com/php-mpos/smarty.c:251
+#: /Users/johna/github.com/php-mpos/smarty.c:260
 msgid "Username"
 msgstr "ユーザー名"
 
@@ -99,7 +101,7 @@ msgstr "支払い(キャッシュアウト)"
 msgid ""
 "Please note: a %1 %2 transaction will apply when processing \"On-Demand\" "
 "manual payments"
-msgstr ""
+msgstr "テスト"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:59
 msgid "Account Balance"
@@ -268,6 +270,8 @@ msgid "Logout"
 msgstr "ログアウト"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:209
+#: /Users/johna/github.com/php-mpos/smarty.c:248
+#: /Users/johna/github.com/php-mpos/smarty.c:257
 msgid "Login"
 msgstr "ログイン"
 
@@ -294,10 +298,57 @@ msgid "Pool Hasrate"
 msgstr "プールハッシュレート"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:230
-#, fuzzy
 msgid "Welcome %1"
 msgstr "%1様、ようこそ"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:233
 msgid "Welcome Guest"
 msgstr "ようこそ、ゲストさん"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:236
+msgid "Login with existing account"
+msgstr "ユーザー名を入力してログインボタンを押して下さい。"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:239
+msgid "Username or E-Mail"
+msgstr "ユーザー名もしはメールアドレス"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:242
+#: /Users/johna/github.com/php-mpos/smarty.c:254
+#: /Users/johna/github.com/php-mpos/smarty.c:263
+msgid "Password"
+msgstr "パスワード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:245
+msgid "Forgot your password?"
+msgstr "パスワード忘れの場合"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:266
+msgid "Repeat Password"
+msgstr "確認用パスワード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:269
+msgid "Email"
+msgstr "メールアドレス"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:272
+msgid "Email Repeat"
+msgstr "確認用のメールアドレス"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:275
+#, fuzzy
+msgid "PIN"
+msgstr "４桁のPIN"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:278
+msgid "4 digit number. <b>Remember this pin!</b>"
+msgstr ""
+"４桁の数字を入力して下さい。（入力した数字を忘れないようにして下さい。）"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:281
+msgid "Register"
+msgstr "ユーザ登録"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:284
+msgid "We are currently not accepting new user registrations."
+msgstr "現在新規ユーザーが登録できなくなっております。"

@@ -4,14 +4,14 @@
     <input type="hidden" name="page" value="login" />
     <input type="hidden" name="to" value="{$smarty.server.PHP_SELF}?page=dashboard" />
     <fieldset2 class="small">
-      <label>Username</label>
+      <label>{t}Username{/t}</label>
       <input type="text" name="username" size="22" maxlength="20" required />
       <fieldset2 class="small">
-        <label>Password</label>
+        <label>{t}Password{/t}</label>
         <input type="password" name="password" size="22" maxlength="20" required />
       </fieldset2>
     </fieldset2>
-    <input type="submit" value="Login" class="alt_btn" />
+    <input type="submit" value="{t}Login{/t}" class="alt_btn" />
   </form>
 </div>
 {/if}

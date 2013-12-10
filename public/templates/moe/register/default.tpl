@@ -8,29 +8,29 @@
 {/if}
     <input type="hidden" name="action" value="register">
     <fieldset>
-      <label>Username</label>
+      <label>{t}Username{/t}</label>
       <input type="text" class="text tiny" name="username" value="{$smarty.post.username|escape|default:""}" size="15" maxlength="20" required>
     </fieldset>
     <fieldset>
-      <label>Password</label>
+      <label>{t}Password{/t}</label>
       <input type="password" class="text tiny" name="password1" value="" size="15" maxlength="20" required>
-      <label>Repeat Password</label>
+      <label>{t}Repeat Password{/t}</label>
       <input type="password" class="text tiny" name="password2" value="" size="15" maxlength="20" required>
     </fieldset>
     <fieldset>
-      <label>Email</label>
+      <label>{t}Email{/t}</label>
       <input type="text" name="email1" class="text small" value="{$smarty.post.email1|escape|default:""}" size="15" required>
-      <label>Email Repeat</label>
+      <label>{t}Email Repeat{/t}</label>
       <input type="text" class="text small" name="email2" value="{$smarty.post.email2|escape|default:""}" size="15" required>
     </fieldset>
     <fieldset>
-      <label>PIN</label>
-      <input type="password" class="text pin" name="pin" value="" size="4" maxlength="4"><font size="1"> (4 digit number. <b>Remember this pin!</b>)</font>
+      <label>{t}PIN{/t}</label>
+      <input type="password" class="text pin" name="pin" value="" size="4" maxlength="4"><font size="1"> ({t}4 digit number. <b>Remember this pin!</b>{/t})</font>
     </fieldset>
     {nocache}{$RECAPTCHA|default:""}{/nocache}
     <footer>
       <div class="submit_link">
-        <input type="submit" value="Register" class="alt_btn">
+        <input type="submit" value="{t}Register{/t}" class="alt_btn">
       </div>
     </footer>
   </form>
