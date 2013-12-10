@@ -2,15 +2,15 @@
 ini_set('display_errors', 1);
 // 変換テーブルの場所を指定します
 $localeDir = realpath(__DIR__ . '/../../locale');
-$language  = 'ja_JP.UTF-8';
+$language  = 'ja_JP.utf8';
 $domain    = "messages";
 putenv("LANG=$language");
 $res = setlocale(LC_ALL, $language);
 var_dump($res);
 
-system('locale -a');
+//system('locale -a');
 
-bind_textdomain_codeset($domain, "UTF-8");
+bind_textdomain_codeset($domain, "UTF8");
 bindtextdomain($domain, $localeDir);
 textdomain($domain);
 
