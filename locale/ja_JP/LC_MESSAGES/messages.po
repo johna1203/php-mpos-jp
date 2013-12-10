@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-10 03:21-0300\n"
-"PO-Revision-Date: 2013-12-10 03:21-0300\n"
+"POT-Creation-Date: 2013-12-10 12:27-0300\n"
+"PO-Revision-Date: 2013-12-10 12:28-0300\n"
 "Last-Translator: Johnathan David <johnathan@kodokuman.com>\n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -12,9 +12,150 @@ msgstr ""
 "X-Generator: Poedit 1.6.1\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: /Users/johna/github.com/php-mpos\n"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:2
-#: /Users/johna/github.com/php-mpos/public/include/gettext.inc.php:12
+msgid "Home"
+msgstr "ホーム"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:5
 msgid "My Account"
 msgstr "アカウント"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:8
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:11
+msgid "Edit Account"
+msgstr "アカウント編集"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:14
+msgid "My Workers"
+msgstr "ウォーカー"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:17
+#: /Users/johna/github.com/php-mpos/smarty.c:41
+msgid "Transactions"
+msgstr "トランザクション"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:20
+msgid "Notifications"
+msgstr "通知"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:23
+msgid "Invitations"
+msgstr "友達を招待"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:26
+msgid "QR Codes"
+msgstr "QRコード"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:29
+msgid "Admin Panel"
+msgstr "管理画面"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:32
+msgid "Monitoring"
+msgstr "モニタリング"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:35
+msgid "User Info"
+msgstr "ユーザー情報"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:38
+msgid "Wallet Info"
+msgstr "ウォレット情報(財布)"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:44
+msgid "Settings"
+msgstr "設定"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:47
+msgid "News"
+msgstr "ニュース"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:50
+msgid "Reports"
+msgstr "レポート"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:53
+msgid "Pool Workers"
+msgstr "プール・ウォーカー"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:56
+#: /Users/johna/github.com/php-mpos/smarty.c:77
+#: /Users/johna/github.com/php-mpos/smarty.c:83
+msgid "Statistics"
+msgstr "統計"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:59
+#: /Users/johna/github.com/php-mpos/smarty.c:80
+msgid "Pool"
+msgstr "プール"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:62
+#: /Users/johna/github.com/php-mpos/smarty.c:86
+msgid "Blocks"
+msgstr "ブロック"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:65
+msgid "Graphs"
+msgstr "グラフ"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:68
+#: /Users/johna/github.com/php-mpos/smarty.c:89
+msgid "Round"
+msgstr "ラウンド"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:71
+#: /Users/johna/github.com/php-mpos/smarty.c:92
+msgid "Finder"
+msgstr "ファインダー"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:74
+#: /Users/johna/github.com/php-mpos/smarty.c:95
+msgid "Uptime"
+msgstr "更新間隔"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:98
+msgid "Help"
+msgstr "ヘルプ"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:101
+msgid "Getting Started"
+msgstr "はじめに"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:104
+msgid "About"
+msgstr "アバウト"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:107
+msgid "Donors"
+msgstr "提供者"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:110
+msgid "Other"
+msgstr "その他"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:113
+#: /Users/johna/github.com/php-mpos/smarty.c:125
+msgid "Support"
+msgstr "サポート"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:116
+msgid "Logout"
+msgstr "ログアウト"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:119
+msgid "Login"
+msgstr "ログイン"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:122
+msgid "Sign Up"
+msgstr "ユーザー登録"
+
+#: /Users/johna/github.com/php-mpos/smarty.c:128
+msgid "LIVE STATS"
+msgstr "ライブ"
