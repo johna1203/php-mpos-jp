@@ -325,7 +325,7 @@ msgstr "パスワード忘れの場合"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:260
 msgid "Register new account"
-msgstr "下記のフォームを記入して、ユーザー登録をして下さい。"
+msgstr "ユーザー登録フォーム"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:269
 msgid "Repeat Password"
