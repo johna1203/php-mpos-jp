@@ -6,9 +6,9 @@ $language  = 'ja_JP.UTF-8';
 $domain    = "messages";
 putenv("LANG=$language");
 setlocale(LC_ALL, $language);
-textdomain($domain);
-bind_textdomain_codeset($domain, "utf-8");
+bind_textdomain_codeset($domain, "UTF-8");
 bindtextdomain($domain, $localeDir);
+textdomain($domain);
 
 //echo gettext("My Account");
 
