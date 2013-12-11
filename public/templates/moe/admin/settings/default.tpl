@@ -4,7 +4,7 @@
     <input type="hidden" name="action" value="{$smarty.request.action}" />
     <input type="hidden" name="do" value="save" />
     <header>
-      <h3 class="tabs_involved">Settings</h3>
+      <h3 class="tabs_involved">{t}Settings{/t}</h3>
       <ul class="tabs">
 {foreach item=TAB from=array_keys($SETTINGS)}
         <li><a href="#{$TAB}">{$TAB|capitalize}</a></li>

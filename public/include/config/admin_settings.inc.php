@@ -12,7 +12,7 @@ foreach ($aTmpThemes as $dir) {
 
 // Load the settings available in this system
 $aSettings['website'][] = array(
-  'display' => 'Maintenance Mode', 'type' => 'select',
+  'display' => _('Maintenance Mode'), 'type' => 'select',
   'options' => array( 0 => 'No', 1 => 'Yes' ),
   'default' => 0,
   'name' => 'maintenance', 'value' => $setting->getValue('maintenance'),
