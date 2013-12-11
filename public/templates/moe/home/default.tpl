@@ -7,3 +7,7 @@
       </div>
     </article>
 {/section}
+
+<div style="text-align: center;">
+    {include file="global/fb-comments.tpl"}
+</div>

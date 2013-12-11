@@ -50,9 +50,5 @@
         <li>{t escape=no url="https://docs.google.com/document/d/1Gw7YPYgMgNNU42skibULbJJUx_suP_CpjSEdSi8_z9U/preview?sle=true"}Here's a great <a href="%1" target="_blank">guide</a> how to get up and running with Xubuntu.{/t}</li>
       </ul>
     </li>
-
-      <div style="text-align: center;">
-          {include file="global/fb-comments.tpl"}
-      </div>
   </div>
 </article>

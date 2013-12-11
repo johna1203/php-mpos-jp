@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
 "POT-Creation-Date: 2013-12-10 16:11-0300\n"
-"PO-Revision-Date: 2013-12-10 18:07-0300\n"
+"PO-Revision-Date: 2013-12-10 22:38-0300\n"
 "Last-Translator: Johnathan David <johnathan@kodokuman.com>\n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -158,8 +158,8 @@ msgid ""
 "Create a <a href=\"%1?page=account&action=workers\">worker</a> that will be "
 "used by the miner to login"
 msgstr ""
-"ユーザー登録を<a href=”%1”>こちらから</a>する事でコインを掘るためウォーカーを"
-"作成できるようになります。"
+"ユーザー登録を<a href=”%1”>こちらから</a>する事でコインを掘るためワーカー（採"
+"掘者）を作成できるようになります。"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:104
 msgid "Download a miner."
@@ -203,7 +203,7 @@ msgstr "パスワード"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:134
 msgid "Worker Password"
-msgstr "ウォーカーのパスワード"
+msgstr "ワーカー(採掘者)のパスワード"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:137
 msgid "If you use a command-line miner, type:"
@@ -215,19 +215,19 @@ msgstr "ログインユーザー名"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:143
 msgid "Worker"
-msgstr "ウォーカー"
+msgstr "ワーカー（採掘者）"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:146
 msgid "Worker password"
-msgstr "ウォーカーのパスワード"
+msgstr "ワーカーのパスワード"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:149
 msgid ""
 "If you want, you can create additional workers with usernames and passwords "
 "of your choice <a href=\"%1?page=account&action=workers\">Here</a>"
 msgstr ""
-"新規にウォーカーを作成したい場合は <a href=”%1?page=account&action=workers”>"
-"こちらの</a>リンクから、ウォーカーを作成しパスワードを決める事ができます。"
+"新規にワーカーを作成したい場合は <a href=”%1?page=account&action=workers”>こ"
+"ちらの</a>リンクから、ワーカーを作成しパスワードを決める事ができます。"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:152
 msgid "Create a %1 address to recieve payments."
@@ -303,7 +303,7 @@ msgstr "アカウント編集"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:185
 msgid "My Workers"
-msgstr "ウォーカー"
+msgstr "ワーカー（採掘者）"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:188
 #: /Users/johna/github.com/php-mpos/smarty.c:212
@@ -352,7 +352,7 @@ msgstr "レポート"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:224
 msgid "Pool Workers"
-msgstr "プール・ウォーカー"
+msgstr "プール・ワーカー"
 
 #: /Users/johna/github.com/php-mpos/smarty.c:227
 #: /Users/johna/github.com/php-mpos/smarty.c:248

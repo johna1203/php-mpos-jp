@@ -118,6 +118,9 @@
     <li class="icon-desktop">
         <a href="{$smarty.server.PHP_SELF}?page=gettingstarted">{t}Getting Started{/t}</a>
     </li>
+    <li class="icon-desktop">
+        <a href="{$smarty.server.PHP_SELF}?page=gettingstarted&action=miner">CGMINER - LINUX編</a>
+    </li>
     {if !$GLOBAL.website.about.disabled}
         <li class="icon-doc">
             <a href="{$smarty.server.PHP_SELF}?page=about&action=pool">{t}About{/t}</a>
