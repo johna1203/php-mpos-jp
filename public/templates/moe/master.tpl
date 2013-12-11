@@ -37,6 +37,7 @@
 
 </head>
 <body>
+a
 <header id="header">
     {include file="global/header.tpl"}
 </header>
