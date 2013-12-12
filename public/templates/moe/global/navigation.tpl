@@ -119,7 +119,7 @@
         <a href="{$smarty.server.PHP_SELF}?page=gettingstarted">{t}Getting Started{/t}</a>
     </li>
     <li class="icon-desktop">
-        <a href="{$smarty.server.PHP_SELF}?page=gettingstarted&action=miner">CGMINER - LINUX編</a>
+        <a href="http://wiki-jp.moepool.com/%E3%83%A9%E3%82%A4%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3/cgminer%20%E3%81%A6%E3%82%99%E3%81%AE%E6%8E%98%E3%82%8A%E6%96%B9%20(Windows%E7%B7%A8).md">CGMINER - Windows編</a>
     </li>
     {if !$GLOBAL.website.about.disabled}
         <li class="icon-doc">
