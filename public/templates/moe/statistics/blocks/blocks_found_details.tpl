@@ -1,18 +1,18 @@
 <article class="module width_full">
-  <header><h3>Last {$BLOCKLIMIT} Blocks Found</h3></header>
+  <header><h3>{t}Last{/t} {$BLOCKLIMIT} {t}Blocks Found{/t}</h3></header>
   <table class="tablesorter" cellspacing="0">
     <thead>
       <tr>
-        <th align="center">Block</th>
-        <th align="center">Validity</th>
-        <th>Finder</th>
-        <th align="center">Time</th>
-        <th align="right">Difficulty</th>
-        <th align="right">Amount</th>
-        <th align="right">Expected Shares</th>
-{if $GLOBAL.config.payout_system == 'pplns'}<th align="right">PPLNS Shares</th>{/if}
-        <th align="right">Actual Shares</th>
-        <th align="right" style="padding-right: 25px;">Percentage</th>
+        <th align="center">{t}Block{/t}</th>
+        <th align="center">{t}Validity{/t}</th>
+        <th>{t}Finder{/t}</th>
+        <th align="center">{t}Time{/t}</th>
+        <th align="right">{t}Difficulty{/t}</th>
+        <th align="right">{t}Amount{/t}</th>
+        <th align="right">{t}Expected Shares{/t}</th>
+{if $GLOBAL.config.payout_system == 'pplns'}<th align="right">{t}PPLNS Shares{/t}</th>{/if}
+        <th align="right">{t}Actual Shares{/t}</th>
+        <th align="right" style="padding-right: 25px;">{t}Percentage{/t}</th>
       </tr>
     </thead>
     <tbody>

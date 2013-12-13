@@ -1,12 +1,12 @@
 <article class="module width_half">
-  <header><h3>Last Found Blocks</h3></header>
+  <header><h3>{t}Last Found Blocks{/t}</h3></header>
   <table class="tablesorter" cellspacing="0">
     <thead>
       <tr>
-        <th align="center">Block</th>
-        <th>Finder</th>
-        <th align="center">Time</th>
-        <th align="right" style="padding-right: 25px;">Actual Shares</th>
+        <th align="center">{t}Block{/t}</th>
+        <th>{t}Finder{/t}</th>
+        <th align="center">{t}Time{/t}</th>
+        <th align="right" style="padding-right: 25px;">{t}Actual Shares{/t}</th>
       </tr>
     </thead>
     <tbody>

@@ -1,24 +1,24 @@
 <article class="module width_full">
-  <header><h3>Block Overview</h3></header>
+  <header><h3>{t}Block Overview{/t}</h3></header>
   <table width="100%" class="tablesorter" cellspacing="0">
     <thead>
         <tr>
           <th align="left"></th>
-          <th align="center">Gen Est.</th>
-          <th align="center">Found</th>
-          <th align="center">Valid</th>
-          <th align="center">Orphan</th>
-          <th align="center">Avg Diff</th>
-          <th align="center">Shares Est.</th>
-          <th align="center">Shares</th>
-          <th align="center">Percentage</th>
-          <th align="center">Amount</th>
-          <th align="center">Rate Est.</th>
+          <th align="center">{t}Gen Est.{/t}</th>
+          <th align="center">{t}Found{/t}</th>
+          <th align="center">{t}Valid{/t}</th>
+          <th align="center">{t}Orphan{/t}</th>
+          <th align="center">{t}Avg Diff{/t}</th>
+          <th align="center">{t}Shares Est.{/t}</th>
+          <th align="center">{t}Shares{/t}</th>
+          <th align="center">{t}Percentage{/t}</th>
+          <th align="center">{t}Amount{/t}</th>
+          <th align="center">{t}Rate Est.{/t}</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-          <th align="left" style="padding-left: 15px">All Time</td>
+          <th align="left" style="padding-left: 15px">{t}All Time{/t}</td>
           <td align="center">{($FIRSTBLOCKFOUND / $COINGENTIME)|number_format:"0"}</td>
           <td align="center">{$LASTBLOCKSBYTIME.Total}</td>
           <td align="center">{$LASTBLOCKSBYTIME.TotalValid}</td>
@@ -43,7 +43,7 @@
           <td align="center">{($LASTBLOCKSBYTIME.Total|default:"0.00" / ($FIRSTBLOCKFOUND / $COINGENTIME)  * 100)|number_format:"2"}%</td>
         </tr>
         <tr>
-          <th align="left" style="padding-left: 15px">Last Hour</td>
+          <th align="left" style="padding-left: 15px">{t}Last Hour{/t}</td>
           <td align="center">{(3600 / $COINGENTIME)}</td>
           <td align="center">{$LASTBLOCKSBYTIME.1HourTotal}</td>
           <td align="center">{$LASTBLOCKSBYTIME.1HourValid}</td>
@@ -68,7 +68,7 @@
           <td align="center">{($LASTBLOCKSBYTIME.1HourTotal|default:"0.00" / (3600 / $COINGENTIME)  * 100)|number_format:"2"}%</td>
         </tr>
         <tr>
-          <th align="left" style="padding-left: 15px">Last 24 Hours</td>
+          <th align="left" style="padding-left: 15px">{t}Last 24 Hours{/t}</td>
           <td align="center">{(86400 / $COINGENTIME)}</td>
           <td align="center">{$LASTBLOCKSBYTIME.24HourTotal}</td>
           <td align="center">{$LASTBLOCKSBYTIME.24HourValid}</td>
@@ -93,7 +93,7 @@
           <td align="center">{($LASTBLOCKSBYTIME.24HourTotal|default:"0.00" / (86400 / $COINGENTIME)  * 100)|number_format:"2"}%</td>
         </tr>
         <tr>
-          <th align="left" style="padding-left: 15px">Last 7 Days</td>
+          <th align="left" style="padding-left: 15px">{t}Last 7 Days{/t}</td>
           <td align="center">{(604800 / $COINGENTIME)}</td>
           <td align="center">{$LASTBLOCKSBYTIME.7DaysTotal}</td>
           <td align="center">{$LASTBLOCKSBYTIME.7DaysValid}</td>
@@ -118,7 +118,7 @@
           <td align="center">{($LASTBLOCKSBYTIME.7DaysTotal|default:"0.00" / (604800 / $COINGENTIME)  * 100)|number_format:"2"}%</td>
         </tr>
         <tr>
-          <th align="left" style="padding-left: 15px">Last 4 Weeks</td>
+          <th align="left" style="padding-left: 15px">{t}Last 4 Weeks{/t}</td>
           <td align="center">{(2419200 / $COINGENTIME)}</td>
           <td align="center">{$LASTBLOCKSBYTIME.4WeeksTotal}</td>
           <td align="center">{$LASTBLOCKSBYTIME.4WeeksValid}</td>
@@ -143,7 +143,7 @@
           <td align="center">{($LASTBLOCKSBYTIME.4WeeksTotal|default:"0.00" / (2419200 / $COINGENTIME)  * 100)|number_format:"2"}%</td>
         </tr>
         <tr>
-          <th align="left" style="padding-left: 15px">Last 12 Month</td>
+          <th align="left" style="padding-left: 15px">{t}Last 12 Month{/t}</td>
           <td align="center">{(29030400 / $COINGENTIME)}</td>
           <td align="center">{$LASTBLOCKSBYTIME.12MonthTotal}</td>
           <td align="center">{$LASTBLOCKSBYTIME.12MonthValid}</td>
