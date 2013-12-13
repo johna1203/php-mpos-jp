@@ -3,33 +3,33 @@
   <input type="hidden" name="action" value="{$smarty.request.action}">
   <input type="hidden" name="do" value="sendInvitation">
   <article class="module width_quarter">
-    <header><h3>Invitation</h3></header>
+    <header><h3>{t}Invitation{/t}</h3></header>
     <div class="module_content">
       <fieldset>
-        <label>E-Mail</label>
+        <label>{t}E-Mail{/t}</label>
         <input type="text" name="data[email]" value="{$smarty.request.data.email|escape|default:""}" size="30" />
       </fieldset>
       <fieldset>
-        <label>Message</label>
+        <label>{t}Message{/t}</label>
         <textarea name="data[message]" rows="5">{$smarty.request.data.message|escape|default:"Please accept my invitation to this awesome pool."}</textarea>
       </fieldset>
     </div>
     <footer>
       <div class="submit_link">
-        <input type="submit" value="Invite" class="alt_btn">
+        <input type="submit" value="{t}Invite{/t}" class="alt_btn">
       </div>
     </footer>
   </article>
 </form>
 
 <article class="module width_3_quarter">
-  <header><h3>Past Invitations</h3></header>
+  <header><h3>{t}Past Invitations{/t}</h3></header>
   <table class="tablesorter" cellspacing="0">
     <thead style="font-size:13px;">
       <tr>
-        <th>E-Mail</th>
-        <th align="center">Sent</th>
-        <th align="center">Activated</th>
+        <th>{t}E-Mail{/t}</th>
+        <th align="center">{t}Sent{/t}</th>
+        <th align="center">{t}Activated{/t}</th>
       </tr>
     </thead>
     <tbody>
