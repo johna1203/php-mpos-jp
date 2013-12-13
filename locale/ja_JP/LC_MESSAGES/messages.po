@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-14 06:50+0900\n"
-"PO-Revision-Date: 2013-12-14 06:53+0900\n"
+"POT-Creation-Date: 2013-12-14 07:01+0900\n"
+"PO-Revision-Date: 2013-12-14 07:01+0900\n"
 "Last-Translator: \n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -19,6 +19,14 @@ msgstr ""
 #: ../../../public/include/config/admin_settings.inc.php:15
 msgid "Maintenance Mode"
 msgstr "メンテナンスモード"
+
+#: ../../../public/include/pages/account/notifications.inc.php:20
+msgid "Could not find any notifications"
+msgstr "通知の履歴が見つかりませんでした"
+
+#: ../../../public/include/pages/account/transactions.inc.php:12
+msgid "Could not find any transaction"
+msgstr "取引履歴が見つかりませんでした"
 
 #: ../../../public/include/pages/statistics/uptime.inc.php:20
 msgid "UptimeRobot API Key not configured."
