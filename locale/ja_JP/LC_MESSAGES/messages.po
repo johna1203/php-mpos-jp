@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-14 06:17+0900\n"
-"PO-Revision-Date: 2013-12-14 06:19+0900\n"
+"POT-Creation-Date: 2013-12-14 06:26+0900\n"
+"PO-Revision-Date: 2013-12-14 06:26+0900\n"
 "Last-Translator: \n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -165,6 +165,7 @@ msgid "Notification Settings"
 msgstr "通知の設定"
 
 #: ../../../smarty.c:119 ../../../smarty.c:146 ../../../smarty.c:164
+#: ../../../smarty.c:1088
 msgid "Type"
 msgstr "種類"
 
@@ -197,6 +198,7 @@ msgid "Notification History"
 msgstr "通知の履歴"
 
 #: ../../../smarty.c:143 ../../../smarty.c:863 ../../../smarty.c:944
+#: ../../../smarty.c:1055
 msgid "Time"
 msgstr "時間"
 
@@ -251,6 +253,7 @@ msgid "Block #"
 msgstr "ブロック番号"
 
 #: ../../../smarty.c:197 ../../../smarty.c:869 ../../../smarty.c:911
+#: ../../../smarty.c:1046 ../../../smarty.c:1097
 msgid "Amount"
 msgstr "単位"
 
@@ -309,6 +312,7 @@ msgstr "モニター"
 
 #: ../../../smarty.c:248 ../../../smarty.c:278 ../../../smarty.c:335
 #: ../../../smarty.c:410 ../../../smarty.c:422 ../../../smarty.c:866
+#: ../../../smarty.c:1052
 msgid "Difficulty"
 msgstr "難易度"
 
@@ -344,6 +348,7 @@ msgid "No worker information available"
 msgstr "ワーカーの情報がありません"
 
 #: ../../../smarty.c:284 ../../../smarty.c:905 ../../../smarty.c:1001
+#: ../../../smarty.c:1058
 msgid "Shares"
 msgstr "シェア数"
 
@@ -452,7 +457,7 @@ msgstr "30日中"
 msgid "Round Information"
 msgstr "ラウンド情報"
 
-#: ../../../smarty.c:386
+#: ../../../smarty.c:386 ../../../smarty.c:1064 ../../../smarty.c:1091
 msgid "Round Shares"
 msgstr "このラウンドのシェア数"
 
@@ -701,12 +706,12 @@ msgstr "ブロック"
 msgid "Graphs"
 msgstr "グラフ"
 
-#: ../../../smarty.c:686 ../../../smarty.c:707
+#: ../../../smarty.c:686 ../../../smarty.c:707 ../../../smarty.c:1094
 msgid "Round"
 msgstr "ラウンド"
 
 #: ../../../smarty.c:689 ../../../smarty.c:710 ../../../smarty.c:860
-#: ../../../smarty.c:941
+#: ../../../smarty.c:941 ../../../smarty.c:1061
 msgid "Finder"
 msgstr "発見者"
 
@@ -824,7 +829,7 @@ msgid "Blocks found by own Workers"
 msgstr "ブロックを発見したワーカー"
 
 #: ../../../smarty.c:821 ../../../smarty.c:836 ../../../smarty.c:980
-#: ../../../smarty.c:995
+#: ../../../smarty.c:995 ../../../smarty.c:1067
 msgid "Rank"
 msgstr "順位"
 
@@ -876,7 +881,7 @@ msgstr "概算生成数"
 msgid "Found"
 msgstr "発見"
 
-#: ../../../smarty.c:893
+#: ../../../smarty.c:893 ../../../smarty.c:1073
 msgid "Valid"
 msgstr "有効"
 
@@ -946,7 +951,8 @@ msgstr "自分のハッシュ速度"
 msgid "Contributor Hashrates"
 msgstr "ユーザーのハッシュ速度"
 
-#: ../../../smarty.c:983 ../../../smarty.c:998
+#: ../../../smarty.c:983 ../../../smarty.c:998 ../../../smarty.c:1070
+#: ../../../smarty.c:1085
 msgid "User Name"
 msgstr "ユーザー名"
 
@@ -1003,5 +1009,25 @@ msgid "These stats are also available in JSON format"
 msgstr "JSONフォーマットでも状態を見ることができます"
 
 #: ../../../smarty.c:1040
+msgid "Block Statistics"
+msgstr "ブロックの統計"
+
+#: ../../../smarty.c:1043
+msgid "Height"
+msgstr "高さ"
+
+#: ../../../smarty.c:1049
+msgid "Confirmations"
+msgstr "確認された数"
+
+#: ../../../smarty.c:1076 ../../../smarty.c:1079
+msgid "Invalid"
+msgstr "無効"
+
+#: ../../../smarty.c:1082
+msgid "Round Transactions"
+msgstr "ラウンドの取引数"
+
+#: ../../../smarty.c:1100
 msgid "Contact &amp; Support"
 msgstr "コンタクト &amp; サポート"

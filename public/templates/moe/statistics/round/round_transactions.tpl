@@ -1,13 +1,13 @@
 <article class="module width_half">
-  <header><h3>Round Transactions</h3></header>
+  <header><h3>{t}Round Transactions{/t}</h3></header>
   <table class="tablesorter" cellspacing="0">
     <thead>
       <tr>
-        <th>User Name</th>
-        <th align="center">Type</th>
-        <th align="right">Round Shares</th>
-        <th align="right" scope="col">Round %</th>
-        <th align="right" style="padding-right: 25px;">Amount</th>
+        <th>{t}User Name{/t}</th>
+        <th align="center">{t}Type{/t}</th>
+        <th align="right">{t}Round Shares{/t}</th>
+        <th align="right" scope="col">{t}Round{/t} %</th>
+        <th align="right" style="padding-right: 25px;">{t}Amount{/t}</th>
       </tr>
     </thead>
     <tbody>

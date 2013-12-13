@@ -1,13 +1,13 @@
 <article class="module width_half">
-  <header><h3>Round Shares</h3></header>
+  <header><h3>{t}Round Shares{/t}</h3></header>
   <table class="tablesorter" cellspacing="0">
     <thead>
       <tr>
-        <th align="center">Rank</th>
-        <th align="left">User Name</th>
-        <th align="right">Valid</th>
-        <th align="right">Invalid</th>
-        <th align="right" style="padding-right: 25px;">Invalid %</th>
+        <th align="center">{t}Rank{/t}</th>
+        <th align="left">{t}User Name{/t}</th>
+        <th align="right">{t}Valid{/t}</th>
+        <th align="right">{t}Invalid{/t}</th>
+        <th align="right" style="padding-right: 25px;">{t}Invalid{/t} %</th>
       </tr>
     </thead>
     <tbody>

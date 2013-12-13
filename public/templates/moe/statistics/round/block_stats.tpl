@@ -1,5 +1,5 @@
 <article class="module width_full">
-  <header><h3>Block Statistics</h3></header>
+  <header><h3>{t}Block Statistics{/t}</h3></header>
   <table class="tablesorter">
     <tbody>
       <tr>
@@ -13,15 +13,15 @@
       <tr class="odd">
         <td>ID</td>
         <td>{$BLOCKDETAILS.id|number_format:"0"|default:"0"}</td>
-        <td>Height</td>
+        <td>{t}Height{/t}</td>
 	{if ! $GLOBAL.website.blockexplorer.disabled}
       	<td><a href="{$GLOBAL.website.blockexplorer.url}{$BLOCKDETAILS.blockhash}" target="_new">{$BLOCKDETAILS.height|number_format:"0"|default:"0"}</a></td>
 	{else}
       	<td>{$BLOCKDETAILS.height|number_format:"0"|default:"0"}</td>
 	{/if}
-        <td>Amount</td>
+        <td>{t}Amount{/t}</td>
         <td>{$BLOCKDETAILS.amount|number_format|default:"0"}</td>
-        <td>Confirmations</td>
+        <td>{t}Confirmations{/t}</td>
         <td>{if $BLOCKDETAILS.confirmations >= $GLOBAL.confirmations}
           <font color="green">Confirmed</font>
         {else if $BLOCKDETAILS.confirmations == -1}
@@ -30,13 +30,13 @@
         {else}{($GLOBAL.confirmations - $BLOCKDETAILS.confirmations)|default:"0"} left{/if}</td>
       </tr>
       <tr class="even">
-        <td>Difficulty</td>
+        <td>{t}Difficulty{/t}</td>
         <td>{$BLOCKDETAILS.difficulty|default:"0"}</td>
-        <td>Time</td>
+        <td>{t}Time{/t}</td>
         <td>{$BLOCKDETAILS.time|default:"0"}</td>
-        <td>Shares</td>
+        <td>{t}Shares{/t}</td>
         <td>{$BLOCKDETAILS.shares|number_format:"0"|default:"0"}</td>
-        <td>Finder</td>
+        <td>{t}Finder{/t}</td>
         <td>{$BLOCKDETAILS.finder|default:"0"}</td>
       </tr>
     </tbody>
