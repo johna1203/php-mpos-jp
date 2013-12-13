@@ -4,16 +4,16 @@
       <tr>
         <td colspan="2">
 {if $GLOBAL.userdata.no_fees}
-        You are mining without any pool fees applied and
+        {t}You are mining without any pool fees applied and{/t}
 {else if $GLOBAL.fees > 0}
-        You are mining at <font color="orange">{$GLOBAL.fees|escape}%</font> pool fee and
+        {t}You are mining at{/t} <font color="orange">{$GLOBAL.fees|escape}%</font> {t}pool fee and{/t}
 {else}
-        This pool does not apply fees and
+        {t}This pool does not apply fees and{/t}
 {/if}
 {if $GLOBAL.userdata.donate_percent > 0}
-        you donate <font color="green">{$GLOBAL.userdata.donate_percent|escape}%</font>.
+        {t}you donate{/t} <font color="green">{$GLOBAL.userdata.donate_percent|escape}%</font>.
 {else}
-        you are not <a href="{$smarty.server.PHP_SELF}?page=account&action=edit">donating</a>.
+        {t}you are not{/t} <a href="{$smarty.server.PHP_SELF}?page=account&action=edit">{t}donating</a>.{/t}
 {/if}
         </td>
       </tr>

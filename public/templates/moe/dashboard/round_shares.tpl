@@ -1,5 +1,5 @@
          <tr>
-           <td colspan="2"><b><u>{t}Round Shares{/t}</u></b> <span id='tt'><img src='{$PATH}/images/questionmark.png' height='15px' width='15px' title='Submitted shares since last found block (ie. round shares)'></span></td>
+           <td colspan="2"><b><u>{t}Round Shares{/t}</u></b> <span id='tt'><img src='{$PATH}/images/questionmark.png' height='15px' width='15px' title='{t}Submitted shares since last found block (ie. round shares){/t}'></span></td>
          </tr>
          <tr>
            <td><b>{t}Est. Shares{/t}</b></td>
