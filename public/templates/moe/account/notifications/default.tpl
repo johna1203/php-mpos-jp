@@ -4,16 +4,16 @@
   <input type="hidden" name="do" value="save">
   <article class="module width_quarter">
     <header>
-      <h3>Notification Settings</h3>
+      <h3>{t}Notification Settings{/t}</h3>
     </header>
     <div class="module_content">
     <table width="100%">
       <tr>
-        <th align="left">Type</th>
-        <th align="center">Active</th>
+        <th align="left">{t}Type{/t}</th>
+        <th align="center">{t}Active{/t}</th>
       </tr>
       <tr>
-        <td align="left">IDLE Worker</td>
+        <td align="left">{t}IDLE Worker{/t}</td>
         <td>
           <span class="toggle">
           <label for="data[idle_worker]">
@@ -25,7 +25,7 @@
         </td>
       </tr>
       <tr>
-        <td align="left">New Blocks</td>
+        <td align="left">{t}New Blocks{/t}</td>
         <td>
           <span class="toggle">
           <label for="data[new_block]">
@@ -37,7 +37,7 @@
         </td>
       </tr>
       <tr>
-        <td align="left">Auto Payout</td>
+        <td align="left">{t}Auto Payout{/t}</td>
         <td>
           <span class="toggle">
           <label for="data[auto_payout]">
@@ -49,7 +49,7 @@
         </td>
       </tr>
       <tr>
-        <td align="left">Manual Payout</td>
+        <td align="left">{t}Manual Payout{/t}</td>
         <td>
           <span class="toggle">
           <label for="data[manual_payout]">
@@ -64,7 +64,7 @@
     </div>
     <footer>
       <div class="submit_link">
-        <input type="submit" value="Update" class="alt_btn">
+        <input type="submit" value="{t}Update{/t}" class="alt_btn">
       </div>
     </footer>
   </article>
@@ -72,16 +72,16 @@
 
 <article class="module width_3_quarter">
   <header>
-      <h3>Notification History</h3>
+      <h3>{t}Notification History{/t}</h3>
       <div class="submit_link">{include file="global/pagination.tpl"}</div>
   </header>
   <table width="100%" class="tablesorterpager" cellspacing="0">
     <thead style="font-size:13px;">
       <tr>
         <th align="center" style="cursor: pointer;">ID</th>
-        <th align="center" style="cursor: pointer;">Time</th>
-        <th align="center" style="cursor: pointer;">Type</th>
-        <th align="center" style="cursor: pointer;">Active</th>
+        <th align="center" style="cursor: pointer;">{t}Time{/t}</th>
+        <th align="center" style="cursor: pointer;">{t}Type{/t}</th>
+        <th align="center" style="cursor: pointer;">{t}Active{/t}</th>
       </tr>
     </thead>
     <tbody style="font-size:12px;">
