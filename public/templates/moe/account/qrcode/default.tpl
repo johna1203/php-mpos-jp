@@ -15,9 +15,9 @@
   {/literal}
 </script>
 <article class="module width_quarter">
-  <header><h3>API String</h3></header>
+  <header><h3>{t}API String{/t}</h3></header>
   <div class="module_content">
-    <p>This code will allow you to import the full API string into your mobile application.</p>
+    <p>{t}This code will allow you to import the full API string into your mobile application.{/t}</p>
     <div id="qrcodeholder"></div>
   </div>
 </article>
