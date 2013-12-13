@@ -24,7 +24,7 @@
                 <input type="text" name="email" value="{nocache}{$GLOBAL.userdata.email|escape}{/nocache}" size="20"/>
             </fieldset>
             <fieldset>
-                <label>{t}Payment Address{/t}</label>
+                <label style="width:300px">{t}Payment Address{/t}</label>
                 <input type="text" name="paymentAddress" value="{nocache}{$smarty.request.paymentAddress|default:$GLOBAL.userdata.coin_address|escape}{nocache}" size="40"/>
             </fieldset>
             <fieldset>
