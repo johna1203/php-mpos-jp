@@ -12,6 +12,28 @@
 <script type="text/javascript" src="{$PATH}/js/plugins/jqplot.pointLabels.js"></script>
 
 <script>
+var jqPlotShareinfoOptionsTitle = '{t}Shares{/t}';
+var seriesLabel = {
+	'Own': '{t}Own{/t}',
+	'Pool': '{t}Pool{/t}',
+	'Sharerate': '{t}Sharerate{/t}'
+};
+var ticksLabel = {
+	'valid': '{t}valid{/t}',
+	'invalid': '{t}invalid{/t}'
+};
+var axesLabel = {
+	'Hashrate': '{t}Hashrate{/t}',
+	'Sharerate': '{t}Sharerate{/t}'
+};
+var titles = {
+	'Hashrate': '{t}Hashrate{/t}',
+	'Pool Hashrate': '{t}Pool Hashrate{/t}',
+	'Net Hashrate': '{t}Net Hashrate{/t}',
+	'Sharerate': '{t}Sharerate{/t}',
+	'Querytime': '{t}Querytime{/t}'
+};
+
 {literal}
 $(document).ready(function(){
   var g1, g2, g3, g4, g5;
@@ -41,20 +63,20 @@ $(document).ready(function(){
       rendererOptions: { smooth: true }
     },
     series: [
-      { yaxis: 'yaxis', label: 'Own',    fill: true                                            },
-      { yaxis: 'yaxis', label: 'Pool',   fill: false, trendline: { show: false }, lineWidth: 2, markerOptions: { show: true, size: 4 }},
-      { yaxis: 'y3axis', label: 'Sharerate', fill: false, trendline: { show: false }              },
+      { yaxis: 'yaxis', label: seriesLabel['Own'],    fill: true                                            },
+      { yaxis: 'yaxis', label: seriesLabel['Pool'],   fill: false, trendline: { show: false }, lineWidth: 2, markerOptions: { show: true, size: 4 }},
+      { yaxis: 'y3axis', label: seriesLabel['Sharerate'], fill: false, trendline: { show: false }              },
     ],
     legend: { show: true, location: 'sw', renderer: $.jqplot.EnhancedLegendRenderer, rendererOptions: { seriesToggleReplot: { resetAxes: true } } },
     axes: {
-      yaxis:  { min: 0, pad: 1.25, label: 'Hashrate' , labelRenderer: $.jqplot.CanvasAxisLabelRenderer },
-      y3axis: { min: 0, pad: 1.25, label: 'Sharerate', labelRenderer: $.jqplot.CanvasAxisLabelRenderer },
+      yaxis:  { min: 0, pad: 1.25, label: axesLabel['Hashrate'] , labelRenderer: $.jqplot.CanvasAxisLabelRenderer },
+      y3axis: { min: 0, pad: 1.25, label: axesLabel['Sharerate'], labelRenderer: $.jqplot.CanvasAxisLabelRenderer },
       xaxis:  { tickInterval: {/literal}{$GLOBAL.config.statistics_ajax_refresh_interval}{literal}, labelRenderer: $.jqplot.CanvasAxisLabelRenderer, renderer: $.jqplot.DateAxisRenderer, angle: 30, tickOptions: { formatString: '%T' } },
     },
   };
 
   var jqPlotShareinfoOptions = {
-    title: 'Shares',
+    title: jqPlotShareinfoOptionsTitle,
     highlighter: { show: false },
     grid: { drawBorder: false, background: '#fbfbfb', shadow: false },
     seriesColors: [ '#26a4ed', '#ee8310', '#e9e744' ],
@@ -73,11 +95,11 @@ $(document).ready(function(){
         tickRenderer: $.jqplot.CanvasAxisTickRenderer ,
     },
     series: [
-      {label: 'Own', }, {label: 'Pool'}
+      {label: seriesLabel['own'], }, {label: seriesLabel['pool']}
     ],
     legend: { show: true, location: 'ne', renderer: $.jqplot.EnhancedLegendRenderer, rendererOptions: { seriesToggleReplot: { resetAxes: true } } },
     axes: {
-      yaxis: { tickOptions: { angle: -90 }, ticks:  [ 'valid', 'invalid' ], renderer: $.jqplot.CategoryAxisRenderer },
+      yaxis: { tickOptions: { angle: -90 }, ticks:  [ ticksLabel['valid'], ticksLabel['invalid'] ], renderer: $.jqplot.CategoryAxisRenderer },
       xaxis: { tickOptions: { angle: -17 }, pointLabels: { show: true } }
     }
   };
@@ -88,16 +110,16 @@ $(document).ready(function(){
   var plot1 = $.jqplot('hashrategraph', [[storedPersonalHashrate], [storedPoolHashrate], [[0, 0.0]]], jqPlotOverviewOptions);
   var plot2 = $.jqplot('shareinfograph', [[{/literal}{$GLOBAL.userdata.shares.valid}{literal},{/literal}{$GLOBAL.userdata.shares.invalid}{literal}],[{/literal}{$GLOBAL.roundshares.valid}{literal},{/literal}{$GLOBAL.roundshares.invalid}{literal}]], jqPlotShareinfoOptions);
 
-  g1 = new JustGage({id: "nethashrate", value: parseFloat({/literal}{$GLOBAL.nethashrate}{literal}).toFixed(2), min: 0, max: Math.round({/literal}{$GLOBAL.nethashrate}{literal} * 2), title: "Net Hashrate", gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, label: "{/literal}{$GLOBAL.hashunits.network}{literal}"});
-  g2 = new JustGage({id: "poolhashrate", value: parseFloat({/literal}{$GLOBAL.hashrate}{literal}).toFixed(2), min: 0, max: Math.round({/literal}{$GLOBAL.hashrate}{literal}* 2), title: "Pool Hashrate", gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, label: "{/literal}{$GLOBAL.hashunits.pool}{literal}"});
-  g3 = new JustGage({id: "hashrate", value: parseFloat({/literal}{$GLOBAL.userdata.hashrate}{literal}).toFixed(2), min: 0, max: Math.round({/literal}{$GLOBAL.userdata.hashrate}{literal} * 2), title: "Hashrate", gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, label: "{/literal}{$GLOBAL.hashunits.personal}{literal}"});
+  g1 = new JustGage({id: "nethashrate", value: parseFloat({/literal}{$GLOBAL.nethashrate}{literal}).toFixed(2), min: 0, max: Math.round({/literal}{$GLOBAL.nethashrate}{literal} * 2), title: titles["Net Hashrate"], gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, label: "{/literal}{$GLOBAL.hashunits.network}{literal}"});
+  g2 = new JustGage({id: "poolhashrate", value: parseFloat({/literal}{$GLOBAL.hashrate}{literal}).toFixed(2), min: 0, max: Math.round({/literal}{$GLOBAL.hashrate}{literal}* 2), title: titles["Pool Hashrate"], gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, label: "{/literal}{$GLOBAL.hashunits.pool}{literal}"});
+  g3 = new JustGage({id: "hashrate", value: parseFloat({/literal}{$GLOBAL.userdata.hashrate}{literal}).toFixed(2), min: 0, max: Math.round({/literal}{$GLOBAL.userdata.hashrate}{literal} * 2), title: titles["Hashrate"], gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, label: "{/literal}{$GLOBAL.hashunits.personal}{literal}"});
   if ({/literal}{$GLOBAL.userdata.sharerate}{literal} > 1) {
     initSharerate = {/literal}{$GLOBAL.userdata.sharerate}{literal} * 2
   } else {
     initSharerate = 1
   }
-  g4 = new JustGage({id: "sharerate", value: parseFloat({/literal}{$GLOBAL.userdata.sharerate}{literal}).toFixed(2), min: 0, max: Math.round(initSharerate), gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, title: "Sharerate", label: "shares/s"});
-  g5 = new JustGage({id: "querytime", value: parseFloat(0).toFixed(0), min: 0, max: Math.round(5 * 100), gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, title: "Querytime", label: "ms"});
+  g4 = new JustGage({id: "sharerate", value: parseFloat({/literal}{$GLOBAL.userdata.sharerate}{literal}).toFixed(2), min: 0, max: Math.round(initSharerate), gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, title: titles["Sharerate"], label: "shares/s"});
+  g5 = new JustGage({id: "querytime", value: parseFloat(0).toFixed(0), min: 0, max: Math.round(5 * 100), gaugeColor: '#6f7a8a', valueFontColor: '#555', shadowOpacity : 0.8, shadowSize : 0, shadowVerticalOffset : 10, title: titles["Querytime"], label: "ms"});
 
   // Helper to refresh graphs
   function refreshInformation(data) {

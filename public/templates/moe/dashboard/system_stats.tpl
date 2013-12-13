@@ -1,5 +1,5 @@
  <article class="module width_quarter">
-   <header><h3>{$GLOBAL.config.payout_system|capitalize} Stats</h3></header>
+   <header><h3>{$GLOBAL.config.payout_system|capitalize} {t}Stats{/t}</h3></header>
    <div class="module_content">
      <table width="100%">
        <tbody>
@@ -22,7 +22,7 @@
           <td>{$GLOBAL.poolppsvalue|number_format:"12"} {$GLOBAL.config.currency}</td>
         </tr>
         <tr>
-          <td><b>PPS Difficulty</b></td>
+          <td><b>PPS {t}Difficulty{/t}</b></td>
           <td id="b-ppsdiff">{$GLOBAL.userdata.sharedifficulty|number_format:"2"}</td>
         </tr>
 {/if}

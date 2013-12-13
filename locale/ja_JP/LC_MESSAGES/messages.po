@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-12 01:24+0900\n"
-"PO-Revision-Date: 2013-12-12 01:24+0900\n"
+"POT-Creation-Date: 2013-12-14 04:00+0900\n"
+"PO-Revision-Date: 2013-12-14 04:00+0900\n"
 "Last-Translator: \n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -20,133 +20,103 @@ msgstr ""
 msgid "Maintenance Mode"
 msgstr "メンテナンスモード"
 
-#: smarty.c:2 ../../../smarty.c:2 ../../../locale/ja_JP/LC_MESSAGES/smarty.c:2
+#: ../../../smarty.c:2
 msgid "API Reference"
 msgstr "API リファレンス"
 
-#: smarty.c:5 ../../../smarty.c:5 ../../../locale/ja_JP/LC_MESSAGES/smarty.c:5
+#: ../../../smarty.c:5
 msgid ""
 "Please head over to the <a href=\"%1\">official documentation</a> to learn "
 "about the API featured in <b>MPOS</b>."
 msgstr "<b>MPOS</b>の<a href=”%1”>APIドキュメント</a>のURLです。"
 
-#: smarty.c:8 ../../../smarty.c:8 ../../../locale/ja_JP/LC_MESSAGES/smarty.c:8
+#: ../../../smarty.c:8
 msgid "Account Details"
 msgstr "アカウント詳細"
 
-#: smarty.c:11 smarty.c:128 smarty.c:209 smarty.c:443 smarty.c:455
-#: ../../../smarty.c:11 ../../../smarty.c:131 ../../../smarty.c:212
-#: ../../../smarty.c:446 ../../../smarty.c:458
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:11
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:128
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:209
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:443
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:455
+#: ../../../smarty.c:11 ../../../smarty.c:293 ../../../smarty.c:374
+#: ../../../smarty.c:608 ../../../smarty.c:620
 msgid "Username"
 msgstr "ユーザー名"
 
-#: smarty.c:14 ../../../smarty.c:14
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:14
+#: ../../../smarty.c:14
 msgid "User Id"
 msgstr "ユーザーID"
 
-#: smarty.c:17 ../../../smarty.c:17
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:17
+#: ../../../smarty.c:17
 msgid "API Key"
 msgstr "APIキー"
 
-#: smarty.c:20 ../../../smarty.c:20
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:20
+#: ../../../smarty.c:20
 msgid "E-Mail"
 msgstr "メールアドレス"
 
-#: smarty.c:23 ../../../smarty.c:23
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:23
+#: ../../../smarty.c:23
 msgid "Payment Address"
 msgstr "支払い用のアドレス (ウォレットのアドレス)"
 
-#: smarty.c:26 ../../../smarty.c:26
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:26
+#: ../../../smarty.c:26
 msgid "Donation Percentage"
 msgstr "寄付のパーセンテージ"
 
-#: smarty.c:29 ../../../smarty.c:29
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:29
+#: ../../../smarty.c:29
 msgid " Donation amount in percent (example: 0.5)"
 msgstr "寄付のパーセンテージを入力方法は小数点を使って下さい (例 : 0.5)"
 
-#: smarty.c:32 ../../../smarty.c:32
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:32
+#: ../../../smarty.c:32
 msgid "Automatic Payout Threshold"
 msgstr "自動支払い有効"
 
-#: smarty.c:35 ../../../smarty.c:35
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:35
+#: ../../../smarty.c:35
 msgid "%1-%2 %3. Set to '0' for no auto payout."
 msgstr ""
 "自動支払いを無効にする場合は ‘0’ を入力して下さい。入力可能値は %1-%2 %3。"
 
-#: smarty.c:38 ../../../smarty.c:38
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:38
+#: ../../../smarty.c:38
 msgid "Anonymous Account"
 msgstr "偽名"
 
-#: smarty.c:41 ../../../smarty.c:41
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:41
+#: ../../../smarty.c:41
 msgid ""
 "Hide username on website from others. Admins can still get your user "
 "information."
 msgstr "有効にすると管理者以外の人からユーザー名が隠されます。"
 
-#: smarty.c:44 smarty.c:65 smarty.c:86 ../../../smarty.c:44
-#: ../../../smarty.c:65 ../../../smarty.c:86
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:44
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:65
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:86
+#: ../../../smarty.c:44 ../../../smarty.c:65 ../../../smarty.c:86
 msgid "4 digit PIN"
 msgstr "４桁のPIN"
 
-#: smarty.c:47 ../../../smarty.c:47
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:47
+#: ../../../smarty.c:47
 msgid "The 4 digit PIN you chose when registering"
 msgstr "登録時の4桁のPINを入力"
 
-#: smarty.c:50 ../../../smarty.c:50
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:50
+#: ../../../smarty.c:50
 msgid "Update Account"
 msgstr "アカウント更新"
 
-#: smarty.c:53 smarty.c:68 ../../../smarty.c:53 ../../../smarty.c:68
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:53
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:68
+#: ../../../smarty.c:53 ../../../smarty.c:68
 msgid "Cash Out"
 msgstr "支払い(キャッシュアウト)"
 
-#: smarty.c:56 ../../../smarty.c:56
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:56
+#: ../../../smarty.c:56
 msgid ""
 "Please note: a %1 %2 transaction will apply when processing \"On-Demand\" "
 "manual payments"
 msgstr "テスト"
 
-#: smarty.c:59 ../../../smarty.c:59
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:59
+#: ../../../smarty.c:59 ../../../smarty.c:98
 msgid "Account Balance"
 msgstr "アカウントバランス"
 
-#: smarty.c:62 ../../../smarty.c:62
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:62
+#: ../../../smarty.c:62
 msgid "Payout to"
 msgstr "支払い"
 
-#: smarty.c:71 smarty.c:89 ../../../smarty.c:71 ../../../smarty.c:89
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:71
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:89
+#: ../../../smarty.c:71 ../../../smarty.c:89
 msgid "Change Password"
 msgstr "パスワード変更"
 
-#: smarty.c:74 ../../../smarty.c:74
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:74
+#: ../../../smarty.c:74
 msgid ""
 "Note: You will be redirected to login on successful completion of a password "
 "change"
@@ -154,36 +124,207 @@ msgstr ""
 "注: パスワードの変更に成功すると、ログインに飛ばされますので恐れ入りますが再"
 "度新しいパスワードでログインして下さい。"
 
-#: smarty.c:77 ../../../smarty.c:77
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:77
+#: ../../../smarty.c:77
 msgid "Current Password"
 msgstr "現在のパスワード"
 
-#: smarty.c:80 ../../../smarty.c:80
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:80
+#: ../../../smarty.c:80
 msgid "New Password"
 msgstr "新しいパスワード"
 
-#: smarty.c:83 ../../../smarty.c:83
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:83
+#: ../../../smarty.c:83
 msgid "New Password Repeat"
 msgstr "確認用のパスワード"
 
-#: smarty.c:92 smarty.c:173 ../../../smarty.c:95 ../../../smarty.c:176
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:92
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:173
+#: ../../../smarty.c:92 ../../../smarty.c:491
+msgid "Settings"
+msgstr "設定"
+
+#: ../../../smarty.c:95
+msgid "Account Information"
+msgstr "アカウント情報"
+
+#: ../../../smarty.c:101
+msgid "Confirmed"
+msgstr "確認済み"
+
+#: ../../../smarty.c:104
+msgid "Unconfirmed"
+msgstr "未確認"
+
+#: ../../../smarty.c:107 ../../../smarty.c:245 ../../../smarty.c:308
+#: ../../../smarty.c:389 ../../../smarty.c:422 ../../../smarty.c:434
+#: ../../../smarty.c:437 ../../../smarty.c:443
+msgid "Worker"
+msgstr "ワーカー"
+
+#: ../../../smarty.c:110 ../../../smarty.c:137 ../../../smarty.c:143
+#: ../../../smarty.c:158 ../../../smarty.c:248
+msgid "Hashrate"
+msgstr "ハッシュ速度"
+
+#: ../../../smarty.c:113 ../../../smarty.c:164 ../../../smarty.c:239
+#: ../../../smarty.c:251
+msgid "Difficulty"
+msgstr "難易度"
+
+#: ../../../smarty.c:116
+msgid "No worker information available"
+msgstr "ワーカーの情報がありません"
+
+#: ../../../smarty.c:119
+msgid "Shares"
+msgstr "シェア"
+
+#: ../../../smarty.c:122
+msgid "Own"
+msgstr "自分"
+
+#: ../../../smarty.c:125 ../../../smarty.c:506 ../../../smarty.c:527
+msgid "Pool"
+msgstr "プール"
+
+#: ../../../smarty.c:128 ../../../smarty.c:140 ../../../smarty.c:152
+msgid "Sharerate"
+msgstr "シェア速度"
+
+#: ../../../smarty.c:131
+msgid "valid"
+msgstr "有効"
+
+#: ../../../smarty.c:134
+msgid "invalid"
+msgstr "無効"
+
+#: ../../../smarty.c:146
+msgid "Pool Hashrate"
+msgstr "プールのハッシュ速度"
+
+#: ../../../smarty.c:149
+msgid "Net Hashrate"
+msgstr "ネットのハッシュ速度"
+
+#: ../../../smarty.c:155
+msgid "Querytime"
+msgstr "問い合わせ時間"
+
+#: ../../../smarty.c:161
+msgid "Network Info"
+msgstr "ネットワーク情報"
+
+#: ../../../smarty.c:167
+msgid "Current Block"
+msgstr "現在のブロック"
+
+#: ../../../smarty.c:170
+msgid "Overview"
+msgstr "全般"
+
+#: ../../../smarty.c:173 ../../../smarty.c:500
+msgid "Pool Workers"
+msgstr "プールのワーカー数"
+
+#: ../../../smarty.c:176
+msgid "Refresh interval"
+msgstr "更新間隔"
+
+#: ../../../smarty.c:179
+msgid "seconds."
+msgstr "秒."
+
+#: ../../../smarty.c:182
+msgid "Estimates"
+msgstr "見積もり"
+
+#: ../../../smarty.c:185
+msgid "Block"
+msgstr "ブロック"
+
+#: ../../../smarty.c:188
+msgid "Fees"
+msgstr "報酬"
+
+#: ../../../smarty.c:191
+msgid "Donation"
+msgstr "寄付"
+
+#: ../../../smarty.c:194
+msgid "Payout"
+msgstr "支払い"
+
+#: ../../../smarty.c:197
+msgid "in 1 hour"
+msgstr "1時間中"
+
+#: ../../../smarty.c:200
+msgid "in 24 hours"
+msgstr "24時間中"
+
+#: ../../../smarty.c:203
+msgid "in 7 days"
+msgstr "7日中"
+
+#: ../../../smarty.c:206
+msgid "in 14 days"
+msgstr "14日中"
+
+#: ../../../smarty.c:209
+msgid "in 30 days"
+msgstr "30日中"
+
+#: ../../../smarty.c:212
+msgid "Round Information"
+msgstr "ラウンド情報"
+
+#: ../../../smarty.c:215
+msgid "Round Shares"
+msgstr "ラウンドシェア"
+
+#: ../../../smarty.c:218
+msgid "Est. Shares"
+msgstr "概算シェア"
+
+#: ../../../smarty.c:221
+msgid "done"
+msgstr "完了"
+
+#: ../../../smarty.c:224
+msgid "Pool Valid"
+msgstr "有効 (プール)"
+
+#: ../../../smarty.c:227
+msgid "Your Valid"
+msgstr "有効 (自分)"
+
+#: ../../../smarty.c:230
+msgid "Pool Invalid"
+msgstr "無効 (プール)"
+
+#: ../../../smarty.c:233
+msgid "Your Invalid"
+msgstr "無効 (自分)"
+
+#: ../../../smarty.c:236
+msgid "Stats"
+msgstr "状態"
+
+#: ../../../smarty.c:242
+msgid "Active Worker Information"
+msgstr "アクティブワーカー情報"
+
+#: ../../../smarty.c:254
+msgid "Loading worker information"
+msgstr "ワーカー情報の読み込み中"
+
+#: ../../../smarty.c:257 ../../../smarty.c:338
 msgid "Getting Started Guide"
 msgstr "初めての方へ"
 
-#: smarty.c:95 smarty.c:176 ../../../smarty.c:98 ../../../smarty.c:179
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:95
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:176
+#: ../../../smarty.c:260 ../../../smarty.c:341
 msgid "Create account."
 msgstr "ユーザー登録"
 
-#: smarty.c:98 smarty.c:179 ../../../smarty.c:101 ../../../smarty.c:182
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:98
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:179
+#: ../../../smarty.c:263 ../../../smarty.c:344
 msgid ""
 "Register <a href=\"%1?page=register\">here</a>, or login if you already have "
 "account"
@@ -191,9 +332,7 @@ msgstr ""
 "まずは、ユーザー登録を<a href=“%1?page=register”>ここから</a>行なうか、既に"
 "ユーザーをお持ちの場合はログインをして下さい。"
 
-#: smarty.c:101 smarty.c:182 ../../../smarty.c:104 ../../../smarty.c:185
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:101
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:182
+#: ../../../smarty.c:266 ../../../smarty.c:347
 msgid ""
 "Create a <a href=\"%1?page=account&action=workers\">worker</a> that will be "
 "used by the miner to login"
@@ -201,24 +340,16 @@ msgstr ""
 "ユーザー登録を<a href=”%1”>こちらから</a>する事でコインを掘るためワーカー（採"
 "掘者）を作成できるようになります。"
 
-#: smarty.c:104 smarty.c:185 ../../../smarty.c:107 ../../../smarty.c:188
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:104
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:185
+#: ../../../smarty.c:269 ../../../smarty.c:350
 msgid "Download a miner."
 msgstr "マイナーのダウンロード（コインを掘るためのツールです）"
 
-#: smarty.c:107 smarty.c:110 smarty.c:188 smarty.c:191 ../../../smarty.c:110
-#: ../../../smarty.c:113 ../../../smarty.c:191 ../../../smarty.c:194
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:107
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:110
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:188
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:191
+#: ../../../smarty.c:272 ../../../smarty.c:275 ../../../smarty.c:353
+#: ../../../smarty.c:356
 msgid "<em>CGMiner %1:</em> <a href=\"%2\" target=\"_blank\">Download here</a>"
 msgstr "<em>CGMiner %1:</em> <a href=”%2” target=”_blank”>ダウンロード</a>"
 
-#: smarty.c:113 smarty.c:194 ../../../smarty.c:116 ../../../smarty.c:197
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:113
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:194
+#: ../../../smarty.c:278 ../../../smarty.c:359
 msgid ""
 "<em>CPU Miner %1:</em> precompiled binaries are available <a href=\"%2\" "
 "target=\"_blank\">Download here</a>"
@@ -226,88 +357,46 @@ msgstr ""
 "<em>CPU Miner %1:</em> プリコンパイルされたバイナリファイル <a href=”%2” "
 "target=”_blank”>ダウンロード</a>"
 
-#: smarty.c:116 smarty.c:197 ../../../smarty.c:119 ../../../smarty.c:200
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:116
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:197
+#: ../../../smarty.c:281 ../../../smarty.c:362
 msgid "Configure your miner."
 msgstr "マイナーの設定"
 
-#: smarty.c:119 smarty.c:200 ../../../smarty.c:122 ../../../smarty.c:203
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:119
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:200
+#: ../../../smarty.c:284 ../../../smarty.c:365
 msgid "Settings for Stratum (recommended):"
 msgstr "Stratumの設定 (推奨):"
 
-#: smarty.c:122 smarty.c:203 ../../../smarty.c:125 ../../../smarty.c:206
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:122
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:203
+#: ../../../smarty.c:287 ../../../smarty.c:368
 msgid "STRATUM"
 msgstr "STRATUM"
 
-#: smarty.c:125 smarty.c:206 ../../../smarty.c:128 ../../../smarty.c:209
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:125
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:206
+#: ../../../smarty.c:290 ../../../smarty.c:371
 msgid "PORT"
 msgstr "ポート番号"
 
-#: smarty.c:131 smarty.c:212 smarty.c:434 smarty.c:446 smarty.c:458
-#: ../../../smarty.c:134 ../../../smarty.c:215 ../../../smarty.c:437
-#: ../../../smarty.c:449 ../../../smarty.c:461
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:131
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:212
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:434
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:446
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:458
+#: ../../../smarty.c:296 ../../../smarty.c:377 ../../../smarty.c:599
+#: ../../../smarty.c:611 ../../../smarty.c:623
 msgid "Password"
 msgstr "パスワード"
 
-#: smarty.c:134 smarty.c:215 ../../../smarty.c:137 ../../../smarty.c:218
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:134
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:215
+#: ../../../smarty.c:299 ../../../smarty.c:380
 msgid "Worker Password"
 msgstr "ワーカー(採掘者)のパスワード"
 
-#: smarty.c:137 smarty.c:218 ../../../smarty.c:140 ../../../smarty.c:221
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:137
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:218
+#: ../../../smarty.c:302 ../../../smarty.c:383
 msgid "If you use a command-line miner, type:"
 msgstr "コマンドラインでマイナーを使う場合 : "
 
-#: smarty.c:140 smarty.c:221 smarty.c:254 smarty.c:266 smarty.c:275
-#: ../../../smarty.c:143 ../../../smarty.c:224 ../../../smarty.c:257
-#: ../../../smarty.c:269 ../../../smarty.c:278
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:140
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:221
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:254
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:266
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:275
+#: ../../../smarty.c:305 ../../../smarty.c:386 ../../../smarty.c:419
+#: ../../../smarty.c:431 ../../../smarty.c:440
 msgid "Weblogin"
 msgstr "ログインユーザー名"
 
-#: smarty.c:143 smarty.c:224 smarty.c:257 smarty.c:269 smarty.c:272
-#: smarty.c:278 ../../../smarty.c:146 ../../../smarty.c:227
-#: ../../../smarty.c:260 ../../../smarty.c:272 ../../../smarty.c:275
-#: ../../../smarty.c:281 ../../../locale/ja_JP/LC_MESSAGES/smarty.c:143
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:224
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:257
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:269
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:272
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:278
-msgid "Worker"
-msgstr "ワーカー（採掘者）"
-
-#: smarty.c:146 smarty.c:227 smarty.c:263 smarty.c:281 ../../../smarty.c:149
-#: ../../../smarty.c:230 ../../../smarty.c:266 ../../../smarty.c:284
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:146
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:227
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:263
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:281
+#: ../../../smarty.c:311 ../../../smarty.c:392 ../../../smarty.c:428
+#: ../../../smarty.c:446
 msgid "Worker password"
 msgstr "ワーカーのパスワード"
 
-#: smarty.c:149 smarty.c:230 ../../../smarty.c:152 ../../../smarty.c:233
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:149
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:230
+#: ../../../smarty.c:314 ../../../smarty.c:395
 msgid ""
 "If you want, you can create additional workers with usernames and passwords "
 "of your choice <a href=\"%1?page=account&action=workers\">Here</a>"
@@ -315,30 +404,22 @@ msgstr ""
 "新規にワーカーを作成したい場合は <a href=”%1?page=account&action=workers”>こ"
 "ちらの</a>リンクから、ワーカーを作成しパスワードを決める事ができます。"
 
-#: smarty.c:152 smarty.c:233 ../../../smarty.c:155 ../../../smarty.c:236
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:152
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:233
+#: ../../../smarty.c:317 ../../../smarty.c:398
 msgid "Create a %1 address to recieve payments."
 msgstr "支払い用のアドレスを作成します。"
 
-#: smarty.c:155 smarty.c:236 ../../../smarty.c:158 ../../../smarty.c:239
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:155
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:236
+#: ../../../smarty.c:320 ../../../smarty.c:401
 msgid ""
 "Generate a new address and input it on your account page to receive payments."
 msgstr ""
 "掘って手に入れたコインの支払いを貰う為には、支払い用のアドレスを生成する必要"
 "ができます。"
 
-#: smarty.c:158 smarty.c:239 ../../../smarty.c:161 ../../../smarty.c:242
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:158
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:239
+#: ../../../smarty.c:323 ../../../smarty.c:404
 msgid "Advanced cgminer settings / FAQ"
 msgstr "cgmainerの詳細な設定 / FAQ"
 
-#: smarty.c:161 smarty.c:242 ../../../smarty.c:164 ../../../smarty.c:245
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:161
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:242
+#: ../../../smarty.c:326 ../../../smarty.c:407
 #, fuzzy
 msgid ""
 "Don't set <b>intensity</b> too high, I=11 is standard and safest. Higher "
@@ -349,9 +430,7 @@ msgstr ""
 "intensity takes more GPU RAM. Check for <b>hardware errors</b> in cgminer "
 "(HW). HW=0 is good, otherwise lower intensity :)"
 
-#: smarty.c:164 smarty.c:245 ../../../smarty.c:167 ../../../smarty.c:248
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:164
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:245
+#: ../../../smarty.c:329 ../../../smarty.c:410
 #, fuzzy
 msgid ""
 "Set shaders according to the readme (or look at your graphic cards "
@@ -364,9 +443,7 @@ msgstr ""
 "concurrency</b>. Easiest way to get this optimized is to use same settings "
 "as others have used here: <a href=”%1”>here</a>."
 
-#: smarty.c:167 smarty.c:248 ../../../smarty.c:170 ../../../smarty.c:251
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:167
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:248
+#: ../../../smarty.c:332 ../../../smarty.c:413
 #, fuzzy
 msgid ""
 "There's also an interesting project which gives you a GUI for cgminer. "
@@ -375,9 +452,7 @@ msgstr ""
 "There’s also an interesting project which gives you a GUI for cgminer. "
 "Windows only it seems."
 
-#: smarty.c:170 smarty.c:251 ../../../smarty.c:173 ../../../smarty.c:254
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:170
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:251
+#: ../../../smarty.c:335 ../../../smarty.c:416
 msgid ""
 "Here's a great <a href=\"%1\" target=\"_blank\">guide</a> how to get up and "
 "running with Xubuntu."
@@ -385,280 +460,199 @@ msgstr ""
 "Xubuntuを使って、始める為方法が<a href=“%1”>こちらのサイト</a>で説明されてお"
 "ります。"
 
-#: smarty.c:260 ../../../smarty.c:263
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:260
-#, fuzzy
+#: ../../../smarty.c:425
 msgid "Worker Name"
-msgstr "ワーカー（採掘者）"
+msgstr "ワーカー名"
 
-#: smarty.c:284 ../../../smarty.c:287
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:284
+#: ../../../smarty.c:449
 msgid "Home"
 msgstr "ホーム"
 
-#: smarty.c:287 ../../../smarty.c:290
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:287
+#: ../../../smarty.c:452
 msgid "My Account"
 msgstr "アカウント"
 
-#: smarty.c:290 ../../../smarty.c:293
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:290
+#: ../../../smarty.c:455
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#: smarty.c:293 ../../../smarty.c:296
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:293
+#: ../../../smarty.c:458
 msgid "Edit Account"
 msgstr "アカウント編集"
 
-#: smarty.c:296 ../../../smarty.c:299
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:296
+#: ../../../smarty.c:461
 msgid "My Workers"
 msgstr "ワーカー（採掘者）"
 
-#: smarty.c:299 smarty.c:323 ../../../smarty.c:302 ../../../smarty.c:326
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:299
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:323
+#: ../../../smarty.c:464 ../../../smarty.c:488
 msgid "Transactions"
 msgstr "トランザクション"
 
-#: smarty.c:302 ../../../smarty.c:305
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:302
+#: ../../../smarty.c:467
 msgid "Notifications"
 msgstr "通知"
 
-#: smarty.c:305 ../../../smarty.c:308
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:305
+#: ../../../smarty.c:470
 msgid "Invitations"
 msgstr "友達を招待"
 
-#: smarty.c:308 ../../../smarty.c:311
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:308
+#: ../../../smarty.c:473
 msgid "QR Codes"
 msgstr "QRコード"
 
-#: smarty.c:311 ../../../smarty.c:314
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:311
+#: ../../../smarty.c:476
 msgid "Admin Panel"
 msgstr "管理画面"
 
-#: smarty.c:314 ../../../smarty.c:317
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:314
+#: ../../../smarty.c:479
 msgid "Monitoring"
 msgstr "モニタリング"
 
-#: smarty.c:317 ../../../smarty.c:320
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:317
+#: ../../../smarty.c:482
 msgid "User Info"
 msgstr "ユーザー情報"
 
-#: smarty.c:320 ../../../smarty.c:323
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:320
+#: ../../../smarty.c:485
 msgid "Wallet Info"
 msgstr "ウォレット情報(財布)"
 
-#: smarty.c:326 ../../../smarty.c:92 ../../../smarty.c:329
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:326
-msgid "Settings"
-msgstr "設定"
-
-#: smarty.c:329 ../../../smarty.c:332
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:329
+#: ../../../smarty.c:494
 msgid "News"
 msgstr "ニュース"
 
-#: smarty.c:332 ../../../smarty.c:335
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:332
+#: ../../../smarty.c:497
 msgid "Reports"
 msgstr "レポート"
 
-#: smarty.c:335 ../../../smarty.c:338
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:335
-msgid "Pool Workers"
-msgstr "プール・ワーカー"
-
-#: smarty.c:338 smarty.c:359 smarty.c:365 ../../../smarty.c:341
-#: ../../../smarty.c:362 ../../../smarty.c:368
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:338
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:359
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:365
+#: ../../../smarty.c:503 ../../../smarty.c:524 ../../../smarty.c:530
 msgid "Statistics"
 msgstr "統計"
 
-#: smarty.c:341 smarty.c:362 ../../../smarty.c:344 ../../../smarty.c:365
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:341
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:362
-msgid "Pool"
-msgstr "プール"
-
-#: smarty.c:344 smarty.c:368 ../../../smarty.c:347 ../../../smarty.c:371
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:344
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:368
+#: ../../../smarty.c:509 ../../../smarty.c:533
 msgid "Blocks"
 msgstr "ブロック"
 
-#: smarty.c:347 ../../../smarty.c:350
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:347
+#: ../../../smarty.c:512
 msgid "Graphs"
 msgstr "グラフ"
 
-#: smarty.c:350 smarty.c:371 ../../../smarty.c:353 ../../../smarty.c:374
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:350
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:371
+#: ../../../smarty.c:515 ../../../smarty.c:536
 msgid "Round"
 msgstr "ラウンド"
 
-#: smarty.c:353 smarty.c:374 ../../../smarty.c:356 ../../../smarty.c:377
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:353
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:374
+#: ../../../smarty.c:518 ../../../smarty.c:539
 msgid "Finder"
 msgstr "ファインダー"
 
-#: smarty.c:356 smarty.c:377 ../../../smarty.c:359 ../../../smarty.c:380
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:356
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:377
+#: ../../../smarty.c:521 ../../../smarty.c:542
 msgid "Uptime"
 msgstr "更新間隔"
 
-#: smarty.c:380 ../../../smarty.c:383
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:380
+#: ../../../smarty.c:545
 msgid "Help"
 msgstr "ヘルプ"
 
-#: smarty.c:383 ../../../smarty.c:386
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:383
+#: ../../../smarty.c:548
 msgid "Getting Started"
 msgstr "はじめに"
 
-#: smarty.c:386 ../../../smarty.c:389
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:386
+#: ../../../smarty.c:551
 msgid "About"
 msgstr "アバウト"
 
-#: smarty.c:389 ../../../smarty.c:392
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:389
+#: ../../../smarty.c:554
 msgid "Donors"
 msgstr "提供者"
 
-#: smarty.c:392 ../../../smarty.c:395
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:392
+#: ../../../smarty.c:557
 msgid "Other"
 msgstr "その他"
 
-#: smarty.c:395 smarty.c:407 ../../../smarty.c:398 ../../../smarty.c:410
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:395
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:407
+#: ../../../smarty.c:560 ../../../smarty.c:572
 msgid "Support"
 msgstr "サポート"
 
-#: smarty.c:398 ../../../smarty.c:401
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:398
+#: ../../../smarty.c:563
 msgid "Logout"
 msgstr "ログアウト"
 
-#: smarty.c:401 smarty.c:440 smarty.c:449 ../../../smarty.c:404
-#: ../../../smarty.c:443 ../../../smarty.c:452
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:401
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:440
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:449
+#: ../../../smarty.c:566 ../../../smarty.c:605 ../../../smarty.c:614
 msgid "Login"
 msgstr "ログイン"
 
-#: smarty.c:404 ../../../smarty.c:407
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:404
+#: ../../../smarty.c:569
 msgid "Sign Up"
 msgstr "ユーザー登録"
 
-#: smarty.c:410 ../../../smarty.c:413
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:410
+#: ../../../smarty.c:575
 msgid "LIVE STATS"
 msgstr "ライブ"
 
-#: smarty.c:413 ../../../smarty.c:416
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:413
-#, fuzzy
+#: ../../../smarty.c:578
 msgid "Miners"
-msgstr "マイナー (鉱夫)"
+msgstr "マイナー"
 
-#: smarty.c:416 ../../../smarty.c:419
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:416
-#, fuzzy
+#: ../../../smarty.c:581
 msgid "Active Miners"
-msgstr "有効なマイナー"
+msgstr "アクティブなマイナー"
 
-#: smarty.c:419 ../../../smarty.c:422
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:419
+#: ../../../smarty.c:584
 msgid "Pool Hasrate"
 msgstr "プールハッシュレート"
 
-#: smarty.c:422 ../../../smarty.c:425
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:422
+#: ../../../smarty.c:587
 msgid "Welcome %1"
 msgstr "おかえり〜、%1様"
 
-#: smarty.c:425 ../../../smarty.c:428
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:425
+#: ../../../smarty.c:590
 msgid "Welcome Guest"
 msgstr "ようこそ、ゲストさん"
 
-#: smarty.c:428 ../../../smarty.c:431
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:428
+#: ../../../smarty.c:593
 msgid "Login with existing account"
 msgstr "ユーザー名を入力してログインボタンを押して下さい。"
 
-#: smarty.c:431 ../../../smarty.c:434
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:431
+#: ../../../smarty.c:596
 msgid "Username or E-Mail"
 msgstr "ユーザー名もしはメールアドレス"
 
-#: smarty.c:437 ../../../smarty.c:440
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:437
+#: ../../../smarty.c:602
 msgid "Forgot your password?"
 msgstr "パスワード忘れの場合"
 
-#: smarty.c:452 ../../../smarty.c:455
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:452
+#: ../../../smarty.c:617
 msgid "Register new account"
 msgstr "ユーザー登録フォーム"
 
-#: smarty.c:461 ../../../smarty.c:464
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:461
+#: ../../../smarty.c:626
 msgid "Repeat Password"
 msgstr "確認用パスワード"
 
-#: smarty.c:464 ../../../smarty.c:467
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:464
+#: ../../../smarty.c:629
 msgid "Email"
 msgstr "メールアドレス"
 
-#: smarty.c:467 ../../../smarty.c:470
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:467
+#: ../../../smarty.c:632
 msgid "Email Repeat"
 msgstr "確認用のメールアドレス"
 
-#: smarty.c:470 ../../../smarty.c:473
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:470
-#, fuzzy
+#: ../../../smarty.c:635
 msgid "PIN"
 msgstr "４桁のPIN"
 
-#: smarty.c:473 ../../../smarty.c:476
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:473
+#: ../../../smarty.c:638
 msgid "4 digit number. <b>Remember this pin!</b>"
 msgstr ""
 "４桁の数字を入力して下さい。（入力した数字を忘れないようにして下さい。）"
 
-#: smarty.c:476 ../../../smarty.c:479
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:476
+#: ../../../smarty.c:641
 msgid "Register"
 msgstr "ユーザ登録"
 
-#: smarty.c:479 ../../../smarty.c:482
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:479
+#: ../../../smarty.c:644
 msgid "We are currently not accepting new user registrations."
 msgstr "現在新規ユーザーが登録できなくなっております。"
 
-#: smarty.c:482 ../../../smarty.c:485
-#: ../../../locale/ja_JP/LC_MESSAGES/smarty.c:482
+#: ../../../smarty.c:647
 msgid "Contact &amp; Support"
-msgstr ""
+msgstr "コンタクト &amp; サポート"

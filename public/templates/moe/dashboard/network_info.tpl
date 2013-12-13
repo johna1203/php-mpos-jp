@@ -1,11 +1,11 @@
          <tr>
-           <td colspan="2"><b><u>Network Info</u></b></td>
+           <td colspan="2"><b><u>{t}Network Info{/t}</u></b></td>
          </tr>
          <tr>
-           <td><b>Difficulty</b></td>
+           <td><b>{t}Difficulty{/t}</b></td>
            <td id="b-diff" class="right">{$NETWORK.difficulty}</td>
          </tr>
          <tr>
-           <td><b>Current Block</b></td>
+           <td><b>{t}Current Block{/t}</b></td>
            <td id="b-nblock" class="right">{$NETWORK.block}</td>
          </tr>
