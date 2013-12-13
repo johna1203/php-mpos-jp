@@ -1,4 +1,5 @@
 <script>
+var doneLabel = '{t}done{/t}';
 {literal}
 $(document).ready(function(){
 
@@ -8,7 +9,7 @@ $(document).ready(function(){
   function refreshStaticData(data) {
      $('#b-workers').html((parseFloat(data.getnavbardata.data.pool.workers).toFixed(0)));
      $('#b-hashrate').html((parseFloat(data.getnavbardata.data.pool.hashrate).toFixed(3)));
-     $('#b-target').html(data.getnavbardata.data.pool.estimated + " (done: " + data.getnavbardata.data.pool.progress + "%)");
+     $('#b-target').html(data.getnavbardata.data.pool.estimated + " (" + doneLabel + ": " + data.getnavbardata.data.pool.progress + "%)");
      $('#b-diff').html(data.getnavbardata.data.network.difficulty);
   }
 

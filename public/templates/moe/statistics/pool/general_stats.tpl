@@ -29,17 +29,17 @@
         </tr>
         <tr>
           <th align="left">{t}Est. Shares this Round{/t}</td>
-          <td id="b-target">{$ESTIMATES.shares} (done: {$ESTIMATES.percent}%)</td>
+          <td id="b-target">{$ESTIMATES.shares} ({t}done{/t}: {$ESTIMATES.percent}%)</td>
         </tr>
     {if ! $GLOBAL.website.blockexplorer.disabled}
         <tr>
           <th align="left" width="50%">{t}Next Network Block{/t}</td>
-          <td colspan="3">{$CURRENTBLOCK + 1} &nbsp;&nbsp;<font size="1"> (Current: <a href="{$GLOBAL.website.blockexplorer.url}{$CURRENTBLOCKHASH}" target="_new">{$CURRENTBLOCK})</a></font></td>
+          <td colspan="3">{$CURRENTBLOCK + 1} &nbsp;&nbsp;<font size="1"> ({t}Current{/t}: <a href="{$GLOBAL.website.blockexplorer.url}{$CURRENTBLOCKHASH}" target="_new">{$CURRENTBLOCK})</a></font></td>
         </tr>
     {else}
         <tr>
           <th align="left">{t}Next Network Block{/t}</td>
-          <td colspan="3">{$CURRENTBLOCK + 1} &nbsp;&nbsp; (Current: {$CURRENTBLOCK})</td>
+          <td colspan="3">{$CURRENTBLOCK + 1} &nbsp;&nbsp; ({t}Current{/t}: {$CURRENTBLOCK})</td>
         </tr>
     {/if}
         <tr>
@@ -55,6 +55,6 @@
   </div>
   </div>
   <footer>
-{if !$GLOBAL.website.api.disabled}<ul><li>{t}These stats are also available in JSON format{/t} <a href="{$smarty.server.PHP_SELF}?page=api&action=getpoolstatus&api_key={$GLOBAL.userdata.api_key|default:""}">HERE</a></li></ul>{/if}
+{if !$GLOBAL.website.api.disabled}<ul><li>{t}These stats are also available in JSON format{/t} <a href="{$smarty.server.PHP_SELF}?page=api&action=getpoolstatus&api_key={$GLOBAL.userdata.api_key|default:""}">{t}HERE{/t}</a></li></ul>{/if}
   </footer>
 </article>

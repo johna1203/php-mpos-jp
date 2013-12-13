@@ -8,8 +8,8 @@
 
 function smarty_modifier_seconds_to_words($seconds) {
   if ($seconds < 0) throw new Exception("Can't do negative numbers!");
-  if ($seconds == 0) return "zero seconds";
-  if ($seconds < 1) return "less than a second";
+  if ($seconds == 0) return _("zero seconds");
+  if ($seconds < 1) return _("less than a second");
 
   $hours = intval($seconds/pow(60,2));
   $minutes = intval($seconds/60)%60;

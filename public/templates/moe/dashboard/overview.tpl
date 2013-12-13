@@ -21,6 +21,6 @@
     {/if}
   </div>
   <footer>
-    <p style="margin-left: 25px">{t}Refresh interval{/t}: {$GLOBAL.config.statistics_ajax_refresh_interval|default:"10"} {t}seconds.{/t} Hashrate based on shares submitted in the past {$INTERVAL|default:"5"} minutes.</p>
+    <p style="margin-left: 25px">{t}Refresh interval{/t}: {$GLOBAL.config.statistics_ajax_refresh_interval|default:"10"} {t}seconds.{/t} {t}Hashrate based on shares submitted in the past{/t} {$INTERVAL|default:"5"} {t}minutes.{/t}</p>
   </footer>
 </article>
