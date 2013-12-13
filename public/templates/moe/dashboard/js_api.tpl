@@ -13,6 +13,7 @@
 
 <script>
 var jqPlotShareinfoOptionsTitle = '{t}Shares{/t}';
+var doneLabel = '{t}done{/t}';
 var seriesLabel = {
 	'Own': '{t}Own{/t}',
 	'Pool': '{t}Pool{/t}',
@@ -95,7 +96,7 @@ $(document).ready(function(){
         tickRenderer: $.jqplot.CanvasAxisTickRenderer ,
     },
     series: [
-      {label: seriesLabel['own'], }, {label: seriesLabel['pool']}
+      {label: seriesLabel['Own'], }, {label: seriesLabel['Pool']}
     ],
     legend: { show: true, location: 'ne', renderer: $.jqplot.EnhancedLegendRenderer, rendererOptions: { seriesToggleReplot: { resetAxes: true } } },
     axes: {
@@ -163,7 +164,7 @@ $(document).ready(function(){
     $('#b-pivalid').html(data.getdashboarddata.data.pool.shares.invalid + " (" + data.getdashboarddata.data.pool.shares.invalid_percent + "%)" );
     $('#b-diff').html(data.getdashboarddata.data.network.difficulty);
     $('#b-nblock').html(data.getdashboarddata.data.network.block);
-    $('#b-target').html(data.getdashboarddata.data.pool.shares.estimated + " (done: " + data.getdashboarddata.data.pool.shares.progress + "%)" );
+    $('#b-target').html(data.getdashboarddata.data.pool.shares.estimated + " (" + doneLabel + ": " + data.getdashboarddata.data.pool.shares.progress + "%)" );
     {/literal}{if $GLOBAL.config.payout_system != 'pps'}{literal }
     $('#b-payout').html((parseFloat(data.getdashboarddata.data.personal.estimates.payout).toFixed(4)));
     $('#b-block').html((parseFloat(data.getdashboarddata.data.personal.estimates.block).toFixed(4)));
