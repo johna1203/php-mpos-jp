@@ -14,6 +14,7 @@
 <script>
 var jqPlotShareinfoOptionsTitle = '{t}Shares{/t}';
 var doneLabel = '{t}done{/t}';
+var noActiveWorkersLabel = '{t}No active workers{/t}';
 var seriesLabel = {
 	'Own': '{t}Own{/t}',
 	'Pool': '{t}Pool{/t}',
@@ -196,7 +197,7 @@ $(document).ready(function(){
         $('#b-workers').append('<tr><td>' + workers[i].username + '</td><td align="right">' + workers[i].hashrate + '</td><td align="right">' + workers[i].difficulty + '</td></tr>');
       }
     }
-    if (j == 0) { $('#b-workers').html('<tr><td colspan="3" align="center">No active workers</td></tr>'); }
+    if (j == 0) { $('#b-workers').html('<tr><td colspan="3" align="center">' + noActiveWorkersLabel + '</td></tr>'); }
   }
 
   // Our worker process to keep gauges and graph updated
