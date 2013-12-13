@@ -1,15 +1,15 @@
 <article class="module width_half" style="min-height: 350px">
-  <header><h3>Contributor Hashrates</h3></header>
+  <header><h3>{t}Contributor Hashrates{/t}</h3></header>
   <div>
   <table class="tablesorter" cellspacing="0">
     <thead>
       <tr>
-        <th align="center">Rank</th>
+        <th align="center">{t}Rank{/t}</th>
         <th align="right"></th>
-        <th align="left" scope="col">User Name</th>
+        <th align="left" scope="col">{t}User Name{/t}</th>
         <th align="right" scope="col">KH/s</th>
-        <th align="right">{$GLOBAL.config.currency}/Day</th>
-        {if $GLOBAL.config.price.currency}<th align="right" style="padding-right: 25px;">{$GLOBAL.config.price.currency}/Day</th>{/if}
+        <th align="right">{$GLOBAL.config.currency}/{t}Day{/t}</th>
+        {if $GLOBAL.config.price.currency}<th align="right" style="padding-right: 25px;">{$GLOBAL.config.price.currency}/{t}Day{/t}</th>{/if}
       </tr>
     </thead>
     <tbody>

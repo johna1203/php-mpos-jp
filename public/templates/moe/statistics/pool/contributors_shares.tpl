@@ -1,12 +1,12 @@
 <article class="module width_half" style="min-height: 350px;">
-  <header><h3>Contributor Shares</h3></header>
+  <header><h3>{t}Contributor Shares{/t}</h3></header>
   <table class="tablesorter" cellspacing="0">
     <thead>
       <tr>
-        <th align="center">Rank</th>
+        <th align="center">{t}Rank{/t}</th>
         <th align="right"></th>
-        <th>User Name</th>
-        <th align="right" style="padding-right: 25px;">Shares</th>
+        <th>{t}User Name{/t}</th>
+        <th align="right" style="padding-right: 25px;">{t}Shares{/t}</th>
       </tr>
     </thead>
     <tbody>

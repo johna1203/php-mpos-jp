@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-14 04:16+0900\n"
-"PO-Revision-Date: 2013-12-14 04:21+0900\n"
+"POT-Creation-Date: 2013-12-14 04:36+0900\n"
+"PO-Revision-Date: 2013-12-14 04:37+0900\n"
 "Last-Translator: \n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -172,9 +172,9 @@ msgstr "難易度"
 msgid "No worker information available"
 msgstr "ワーカーの情報がありません"
 
-#: ../../../smarty.c:119
+#: ../../../smarty.c:119 ../../../smarty.c:677
 msgid "Shares"
-msgstr "シェア"
+msgstr "シェア数"
 
 #: ../../../smarty.c:122 ../../../smarty.c:227
 msgid "done"
@@ -658,5 +658,69 @@ msgid "We are currently not accepting new user registrations."
 msgstr "現在新規ユーザーが登録できなくなっております。"
 
 #: ../../../smarty.c:653
+msgid "Contributor Hashrates"
+msgstr "貢献者のハッシュ速度"
+
+#: ../../../smarty.c:656 ../../../smarty.c:671
+msgid "Rank"
+msgstr "順位"
+
+#: ../../../smarty.c:659 ../../../smarty.c:674
+msgid "User Name"
+msgstr "ユーザー名"
+
+#: ../../../smarty.c:662 ../../../smarty.c:665
+msgid "Day"
+msgstr "日"
+
+#: ../../../smarty.c:668
+msgid "Contributor Shares"
+msgstr "貢献者のシェア数"
+
+#: ../../../smarty.c:680
+msgid "General Statistics"
+msgstr "統計 (一般)"
+
+#: ../../../smarty.c:683
+msgid "Pool Hash Rate"
+msgstr "プールのハッシュ速度"
+
+#: ../../../smarty.c:686
+msgid "Pool Efficiency"
+msgstr "プールの稼働効率"
+
+#: ../../../smarty.c:689
+msgid "Current Active Workers"
+msgstr "現在のアクティブワーカーの数"
+
+#: ../../../smarty.c:692
+msgid "Current Difficulty"
+msgstr "現在の難易度"
+
+#: ../../../smarty.c:695
+msgid "Est. Avg. Time per Round"
+msgstr "このラウンドの終了時間 (概算)"
+
+#: ../../../smarty.c:698
+msgid "Est. Shares this Round"
+msgstr "このラウンドの概算シェア"
+
+#: ../../../smarty.c:701 ../../../smarty.c:704
+msgid "Next Network Block"
+msgstr "次のネットワークブロック"
+
+#: ../../../smarty.c:707
+msgid "Last Block Found"
+msgstr "見つけたブロック"
+
+#: ../../../smarty.c:710
+msgid "Time Since Last Block"
+msgstr "最終ブロック発見後の経過時間"
+
+#: ../../../smarty.c:713
+msgid "These stats are also available in JSON format"
+msgstr "JSONフォーマットでも状態を見ることができます"
+
+#: ../../../smarty.c:716
 msgid "Contact &amp; Support"
 msgstr "コンタクト &amp; サポート"
