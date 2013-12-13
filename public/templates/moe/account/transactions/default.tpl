@@ -1,5 +1,5 @@
 <article class="module width_full">
-  <header><h3>Transaction Summary</h3></header>
+  <header><h3>{t}Transaction Summary{/t}</h3></header>
   <table class="tablesorter" cellspacing="0">
     <thead>
       <tr>
@@ -19,7 +19,7 @@
 </article>
 
 <article class="module width_quarter">
-  <header><h3>Transaction Filter</h3></header>
+  <header><h3>{t}Transaction Filter{/t}</h3></header>
   <div class="module_content">
   <form action="{$smarty.server.PHP_SELF}">
     <input type="hidden" name="page" value="{$smarty.request.page}" />
@@ -47,36 +47,36 @@
     </tbody>
   </table>
     <fieldset>
-      <label>Type</label>
+      <label>{t}Type{/t}</label>
       {html_options name="filter[type]" options=$TRANSACTIONTYPES selected=$smarty.request.filter.type|default:""}
     </fieldset>
     <fieldset>
-      <label>Status</label>
+      <label>{t}Status{/t}</label>
       {html_options name="filter[status]" options=$TXSTATUS selected=$smarty.request.filter.status|default:""}
     </fieldset>
     </div>
   <footer>
     <div class="submit_link">
-      <input type="submit" value="Filter" class="alt_btn">
+      <input type="submit" value="{t}Filter{/t}" class="alt_btn">
     </div>
   </footer>
 </form>
 </article>
 
 <article class="module width_3_quarter">
-  <header><h3>Transaction History</h3></header>
+  <header><h3>{t}Transaction History{/t}</h3></header>
     <table cellspacing="0" class="tablesorter" width="100%">
       <thead>
         <tr>
           <th align="center">ID</th>
-          <th>Account</th>
-          <th>Date</th>
-          <th>TX Type</th>
-          <th align="center">Status</th>
-          <th>Payment Address</th>
-          <th>TX #</th>
-          <th>Block #</th>
-          <th>Amount</th>
+          <th>{t}Account{/t}</th>
+          <th>{t}Date{/t}</th>
+          <th>{t}TX Type{/t}</th>
+          <th align="center">{t}Status{/t}</th>
+          <th>{t}Payment Address{/t}</th>
+          <th>{t}TX #{/t}</th>
+          <th>{t}Block #{/t}</th>
+          <th>{t}Amount{/t}</th>
         </tr>
       </thead>
       <tbody style="font-size:12px;">
@@ -94,9 +94,9 @@
                 $TRANSACTIONS[transaction].type == 'Debit_AP' OR
                 $TRANSACTIONS[transaction].type == 'TXFee' OR
                 $TRANSACTIONS[transaction].confirmations >= $GLOBAL.confirmations
-            }<span class="confirmed">Confirmed</span>
-            {else if $TRANSACTIONS[transaction].confirmations == -1}<span class="orphan">Orphaned</span>
-            {else}<span class="unconfirmed">Unconfirmed</span>{/if}
+            }<span class="confirmed">{t}Confirmed{/t}</span>
+            {else if $TRANSACTIONS[transaction].confirmations == -1}<span class="orphan">{t}Orphaned{/t}</span>
+            {else}<span class="unconfirmed">{t}Unconfirmed{/t}</span>{/if}
           </td>
           <td>{$TRANSACTIONS[transaction].coin_address|truncate:20:"...":true:true}</td>
           <td>{$TRANSACTIONS[transaction].txid|truncate:20:"...":true:true}</td>
@@ -106,5 +106,5 @@
 {/section}
       </tbody>
     </table>
-    <footer><p style="margin-left: 25px; font-size: 9px;"><b>Debit_AP</b> = Auto Threshold Payment, <b>Debit_MP</b> = Manual Payment, <b>Donation</b> = Donation, <b>Fee</b> = Pool Fees (if applicable)</p></footer>
+    <footer><p style="margin-left: 25px; font-size: 9px;"><b>Debit_AP</b> = {t}Auto Threshold Payment{/t}, <b>Debit_MP</b> = {t}Manual Payment{/t}, <b>Donation</b> = {t}Donation{/t}, <b>Fee</b> = {t}Pool Fees (if applicable){/t}</p></footer>
 </article>
