@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
 "POT-Creation-Date: 2013-12-14 04:36+0900\n"
-"PO-Revision-Date: 2013-12-14 04:37+0900\n"
+"PO-Revision-Date: 2013-12-14 04:43+0900\n"
 "Last-Translator: \n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../../smarty.c:38
 msgid "Anonymous Account"
-msgstr "偽名"
+msgstr "匿名にする"
 
 #: ../../../smarty.c:41
 msgid ""
@@ -290,7 +290,7 @@ msgstr "このラウンドのシェア数"
 
 #: ../../../smarty.c:224
 msgid "Est. Shares"
-msgstr "概算シェア"
+msgstr "概算シェア数"
 
 #: ../../../smarty.c:230
 msgid "Pool Valid"
@@ -659,7 +659,7 @@ msgstr "現在新規ユーザーが登録できなくなっております。"
 
 #: ../../../smarty.c:653
 msgid "Contributor Hashrates"
-msgstr "貢献者のハッシュ速度"
+msgstr "ユーザーのハッシュ速度"
 
 #: ../../../smarty.c:656 ../../../smarty.c:671
 msgid "Rank"
@@ -675,7 +675,7 @@ msgstr "日"
 
 #: ../../../smarty.c:668
 msgid "Contributor Shares"
-msgstr "貢献者のシェア数"
+msgstr "ユーザーのシェア数"
 
 #: ../../../smarty.c:680
 msgid "General Statistics"
@@ -691,7 +691,7 @@ msgstr "プールの稼働効率"
 
 #: ../../../smarty.c:689
 msgid "Current Active Workers"
-msgstr "現在のアクティブワーカーの数"
+msgstr "現在アクティブなワーカーの数"
 
 #: ../../../smarty.c:692
 msgid "Current Difficulty"
@@ -707,7 +707,7 @@ msgstr "このラウンドの概算シェア"
 
 #: ../../../smarty.c:701 ../../../smarty.c:704
 msgid "Next Network Block"
-msgstr "次のネットワークブロック"
+msgstr "次のネットワークブロック番号"
 
 #: ../../../smarty.c:707
 msgid "Last Block Found"
