@@ -1,7 +1,7 @@
 {if is_array($YOURHASHRATES)}
   <div class="tab_content" id="mine">
     <table class="visualize" rel="area">
-      <caption>Your Hashrate</caption>
+      <caption>{t}Your Hashrate{/t}</caption>
       <thead>
         <tr>
           <td></td>
