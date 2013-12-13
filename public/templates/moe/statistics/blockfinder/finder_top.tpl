@@ -1,13 +1,13 @@
 <article class="module width_half" style="min-height: 350px">
-  <header><h3>Top 25 Blockfinder</h3></header>
+  <header><h3>{t}Top 25 Blockfinder{/t}</h3></header>
   <div>
   <table class="tablesorter" cellspacing="0">
     <thead>
       <tr>
-        <th align="center">Rank</th>
-        <th>Username</th>
-        <th align="center">Blocks</th>
-        <th align="right" style="padding-right: 25px;">Coins Generated</th>
+        <th align="center">{t}Rank{/t}</th>
+        <th>{t}Username{/t}</th>
+        <th align="center">{t}Blocks{/t}</th>
+        <th align="right" style="padding-right: 25px;">{t}Coins Generated{/t}</th>
       </tr>
     </thead>
     <tbody>
