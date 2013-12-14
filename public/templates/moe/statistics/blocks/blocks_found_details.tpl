@@ -65,6 +65,6 @@
     </tbody>
   </table>
   <footer>
-    {if $GLOBAL.config.payout_system != 'pps'}<ul><li>Note: Round Earnings are not credited until <font color="orange">{$GLOBAL.confirmations}</font> confirms.</li></ul>{/if}
+    {if $GLOBAL.config.payout_system != 'pps'}<ul><li>{t}Note: Round Earnings are not credited until{/t} <font color="orange">{$GLOBAL.confirmations}</font> {t}confirms.</li>{/t}</ul>{/if}
   </footer>
 </article>
