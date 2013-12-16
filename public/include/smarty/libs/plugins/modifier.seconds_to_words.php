@@ -15,9 +15,23 @@ function smarty_modifier_seconds_to_words($seconds) {
   $minutes = intval($seconds/60)%60;
   $seconds = $seconds%60;
   $out = "";
+  
+  $hour_unit = _("hour");
+  $minute_unit = _("minute");
+  $second_unit = _("second");
+  
+  if ($hour_unit == "hour") {
+    $hour_unit .= ($hours > 1 ? "s" : "");
+  }
+  if ($minute_unit == "minute") {
+    $minute_unit .= ($minutes > 1 ? "s" : "");
+  }
+  if ($second_unit == "second") {
+    $second_unit .= ($seconds > 1 ? "s" : "");
+  }
 
-  if ($hours > 0) $out .= $hours . " hour". ($hours > 1 ? "s" : "")." ";
-  if ($minutes > 0) $out .= $minutes . " minute". ($minutes > 1 ? "s" : "")." ";
-  if ($seconds > 0) $out .= $seconds . " second". ($seconds > 1 ? "s" : "");
+  if ($hours > 0) $out .= $hours . " " . $hour_unit . " ";
+  if ($minutes > 0) $out .= $minutes . " " . $minute_unit . " ";
+  if ($seconds > 0) $out .= $seconds . " " . $second_unit;
   return trim($out);
 }

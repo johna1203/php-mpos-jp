@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-14 09:14+0900\n"
-"PO-Revision-Date: 2013-12-14 09:14+0900\n"
+"POT-Creation-Date: 2013-12-17 01:46+0900\n"
+"PO-Revision-Date: 2013-12-17 01:46+0900\n"
 "Last-Translator: \n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -62,6 +62,18 @@ msgstr "0秒"
 #: ../../../public/include/smarty/libs/plugins/modifier.seconds_to_words.php:12
 msgid "less than a second"
 msgstr "1秒未満"
+
+#: ../../../public/include/smarty/libs/plugins/modifier.seconds_to_words.php:19
+msgid "hour"
+msgstr "時間"
+
+#: ../../../public/include/smarty/libs/plugins/modifier.seconds_to_words.php:20
+msgid "minute"
+msgstr "分"
+
+#: ../../../public/include/smarty/libs/plugins/modifier.seconds_to_words.php:21
+msgid "second"
+msgstr "秒"
 
 #: ../../../smarty.c:2
 msgid "API Reference"
