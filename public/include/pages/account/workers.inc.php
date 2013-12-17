@@ -20,7 +20,7 @@ if ($user->isAuthenticated()) {
     break;
   case 'update':
     if ($worker->updateWorkers($_SESSION['USERDATA']['id'], @$_POST['data'])) {
-      $_SESSION['POPUP'][] = array('CONTENT' => 'Worker updated');
+      $_SESSION['POPUP'][] = array('CONTENT' => _('Worker updated'));
     } else {
       $_SESSION['POPUP'][] = array('CONTENT' => $worker->getError(), 'TYPE' => 'errormsg');
     }

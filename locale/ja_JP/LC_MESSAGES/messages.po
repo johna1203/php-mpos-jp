@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-17 01:46+0900\n"
-"PO-Revision-Date: 2013-12-17 01:46+0900\n"
+"POT-Creation-Date: 2013-12-18 02:34+0900\n"
+"PO-Revision-Date: 2013-12-18 02:34+0900\n"
 "Last-Translator: \n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -27,6 +27,10 @@ msgstr "通知の履歴が見つかりませんでした"
 #: ../../../public/include/pages/account/transactions.inc.php:12
 msgid "Could not find any transaction"
 msgstr "取引履歴が見つかりませんでした"
+
+#: ../../../public/include/pages/account/workers.inc.php:23
+msgid "Worker updated"
+msgstr "ワーカーの設定が更新されました"
 
 #: ../../../public/include/pages/contactform/contactform.inc.php:19
 msgid "Contactform is currently disabled. Please try again later."
