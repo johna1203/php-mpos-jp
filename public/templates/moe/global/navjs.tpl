@@ -1,4 +1,8 @@
 <script>
+var minersLabel = "{t}Miners{/t}";
+var activeMinersLabel = "{t}Active Miners{/t}";
+var poolHashrateLabel = "{t}Pool Hashrate{/t}";
+
 {literal}
 $(document).ready(function(){
   var g1, g2;
@@ -18,12 +22,12 @@ $(document).ready(function(){
             value: parseFloat(data.getnavbardata.data.pool.workers).toFixed(0),
             min: 0,
             max: Math.round(data.getnavbardata.data.pool.workers * 4),
-            title: "{t}Miners{/t}",
+            title: minersLabel,
             gaugeColor: '#6f7a8a',
             labelFontColor: '#555',
             titleFontColor: '#555',
             valueFontColor: '#555',
-            label: "{t}Active Miners{/t}",
+            label: activeMinersLabel,
             relativeGaugeSize: true,
             showMinMax: true,
             shadowOpacity : 0.8,
@@ -36,7 +40,7 @@ $(document).ready(function(){
             value: parseFloat(data.getnavbardata.data.pool.hashrate).toFixed(2),
             min: 0,
             max: Math.round(data.getnavbardata.data.pool.hashrate * 4),
-            title: "{t}Pool Hasrate{/t}",
+            title: poolHashrateLabel,
             gaugeColor: '#6f7a8a',
             labelFontColor: '#555',
             titleFontColor: '#555',
