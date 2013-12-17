@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mpos\n"
-"POT-Creation-Date: 2013-12-18 02:51+0900\n"
-"PO-Revision-Date: 2013-12-18 02:51+0900\n"
+"POT-Creation-Date: 2013-12-18 03:30+0900\n"
+"PO-Revision-Date: 2013-12-18 03:30+0900\n"
 "Last-Translator: \n"
 "Language-Team: moePool\n"
 "Language: ja_JP\n"
@@ -93,8 +93,8 @@ msgstr "<b>MPOS</b>の<a href=”%1”>APIドキュメント</a>のURLです。"
 msgid "Account Details"
 msgstr "アカウント詳細"
 
-#: ../../../smarty.c:11 ../../../smarty.c:521 ../../../smarty.c:602
-#: ../../../smarty.c:806 ../../../smarty.c:818 ../../../smarty.c:866
+#: ../../../smarty.c:11 ../../../smarty.c:536 ../../../smarty.c:617
+#: ../../../smarty.c:821 ../../../smarty.c:833 ../../../smarty.c:881
 msgid "Username"
 msgstr "ユーザー名"
 
@@ -224,7 +224,7 @@ msgid "Notification Settings"
 msgstr "通知の設定"
 
 #: ../../../smarty.c:119 ../../../smarty.c:146 ../../../smarty.c:164
-#: ../../../smarty.c:1181
+#: ../../../smarty.c:1196
 msgid "Type"
 msgstr "種類"
 
@@ -256,8 +256,8 @@ msgstr "更新する"
 msgid "Notification History"
 msgstr "通知の履歴"
 
-#: ../../../smarty.c:143 ../../../smarty.c:890 ../../../smarty.c:995
-#: ../../../smarty.c:1148
+#: ../../../smarty.c:143 ../../../smarty.c:905 ../../../smarty.c:1010
+#: ../../../smarty.c:1163
 msgid "Time"
 msgstr "時間"
 
@@ -311,8 +311,8 @@ msgstr "取引番号"
 msgid "Block #"
 msgstr "ブロック番号"
 
-#: ../../../smarty.c:197 ../../../smarty.c:896 ../../../smarty.c:944
-#: ../../../smarty.c:1139 ../../../smarty.c:1190
+#: ../../../smarty.c:197 ../../../smarty.c:911 ../../../smarty.c:959
+#: ../../../smarty.c:1154 ../../../smarty.c:1205
 msgid "Amount"
 msgstr "単位"
 
@@ -352,8 +352,8 @@ msgstr "ワーカーを追加する"
 msgid "Worker Name"
 msgstr "ワーカー名"
 
-#: ../../../smarty.c:227 ../../../smarty.c:239 ../../../smarty.c:527
-#: ../../../smarty.c:608
+#: ../../../smarty.c:227 ../../../smarty.c:239 ../../../smarty.c:542
+#: ../../../smarty.c:623
 msgid "Worker Password"
 msgstr "ワーカーのパスワード"
 
@@ -370,8 +370,8 @@ msgid "Monitor"
 msgstr "モニター"
 
 #: ../../../smarty.c:248 ../../../smarty.c:326 ../../../smarty.c:383
-#: ../../../smarty.c:467 ../../../smarty.c:479 ../../../smarty.c:893
-#: ../../../smarty.c:1145
+#: ../../../smarty.c:467 ../../../smarty.c:479 ../../../smarty.c:908
+#: ../../../smarty.c:1160
 msgid "Difficulty"
 msgstr "難易度"
 
@@ -383,7 +383,7 @@ msgstr "アクション"
 msgid "Update Workers"
 msgstr "ワーカーの設定を更新する"
 
-#: ../../../smarty.c:257 ../../../smarty.c:689
+#: ../../../smarty.c:257 ../../../smarty.c:704
 msgid "Settings"
 msgstr "設定"
 
@@ -455,8 +455,8 @@ msgstr " "
 msgid "donating</a>."
 msgstr "プールへの寄付</a> が設定されていません。"
 
-#: ../../../smarty.c:320 ../../../smarty.c:473 ../../../smarty.c:536
-#: ../../../smarty.c:617 ../../../smarty.c:851
+#: ../../../smarty.c:320 ../../../smarty.c:473 ../../../smarty.c:551
+#: ../../../smarty.c:632 ../../../smarty.c:866
 msgid "Worker"
 msgstr "ワーカー"
 
@@ -469,13 +469,13 @@ msgstr "ハッシュ速度"
 msgid "No worker information available"
 msgstr "ワーカーの情報がありません"
 
-#: ../../../smarty.c:332 ../../../smarty.c:938 ../../../smarty.c:1082
-#: ../../../smarty.c:1151
+#: ../../../smarty.c:332 ../../../smarty.c:953 ../../../smarty.c:1097
+#: ../../../smarty.c:1166
 msgid "Shares"
 msgstr "シェア数"
 
-#: ../../../smarty.c:335 ../../../smarty.c:449 ../../../smarty.c:1055
-#: ../../../smarty.c:1106
+#: ../../../smarty.c:335 ../../../smarty.c:449 ../../../smarty.c:1070
+#: ../../../smarty.c:1121
 msgid "done"
 msgstr "完了"
 
@@ -487,8 +487,8 @@ msgstr "アクティブなワーカーがありません"
 msgid "Own"
 msgstr "自分"
 
-#: ../../../smarty.c:344 ../../../smarty.c:704 ../../../smarty.c:725
-#: ../../../smarty.c:1031 ../../../smarty.c:1040 ../../../smarty.c:1052
+#: ../../../smarty.c:344 ../../../smarty.c:719 ../../../smarty.c:740
+#: ../../../smarty.c:1046 ../../../smarty.c:1055 ../../../smarty.c:1067
 msgid "Pool"
 msgstr "プール"
 
@@ -504,7 +504,7 @@ msgstr "有効"
 msgid "invalid"
 msgstr "無効"
 
-#: ../../../smarty.c:365 ../../../smarty.c:782 ../../../smarty.c:1049
+#: ../../../smarty.c:365 ../../../smarty.c:797 ../../../smarty.c:1064
 msgid "Pool Hashrate"
 msgstr "プールのハッシュ速度"
 
@@ -520,7 +520,7 @@ msgstr "問い合わせ時間"
 msgid "Network Info"
 msgstr "ネットワーク情報"
 
-#: ../../../smarty.c:386 ../../../smarty.c:1016
+#: ../../../smarty.c:386 ../../../smarty.c:1031
 msgid "Current Block"
 msgstr "現在のブロック番号"
 
@@ -528,7 +528,7 @@ msgstr "現在のブロック番号"
 msgid "Overview"
 msgstr "全般"
 
-#: ../../../smarty.c:392 ../../../smarty.c:698
+#: ../../../smarty.c:392 ../../../smarty.c:713
 msgid "Pool Workers"
 msgstr "プールのワーカー数"
 
@@ -552,7 +552,7 @@ msgstr "分."
 msgid "Estimates"
 msgstr "見積もり"
 
-#: ../../../smarty.c:410 ../../../smarty.c:881 ../../../smarty.c:989
+#: ../../../smarty.c:410 ../../../smarty.c:896 ../../../smarty.c:1004
 msgid "Block"
 msgstr "ブロック"
 
@@ -588,7 +588,7 @@ msgstr "30日中"
 msgid "Round Information"
 msgstr "ラウンド情報"
 
-#: ../../../smarty.c:440 ../../../smarty.c:1157 ../../../smarty.c:1184
+#: ../../../smarty.c:440 ../../../smarty.c:1172 ../../../smarty.c:1199
 msgid "Round Shares"
 msgstr "このラウンドのシェア数"
 
@@ -617,7 +617,7 @@ msgstr "無効 (プール)"
 msgid "Your Invalid"
 msgstr "無効 (自分)"
 
-#: ../../../smarty.c:464 ../../../smarty.c:1034
+#: ../../../smarty.c:464 ../../../smarty.c:1049
 msgid "Stats"
 msgstr "状態"
 
@@ -629,15 +629,35 @@ msgstr "アクティブワーカー情報"
 msgid "Loading worker information"
 msgstr "ワーカー情報の読み込み中"
 
-#: ../../../smarty.c:485 ../../../smarty.c:566
+#: ../../../smarty.c:485
+msgid "Edit"
+msgstr "アカウント編集"
+
+#: ../../../smarty.c:488
+msgid "Workers"
+msgstr "ワーカー"
+
+#: ../../../smarty.c:491
+msgid "Qrcode"
+msgstr "QRコード"
+
+#: ../../../smarty.c:494
+msgid "Blockfinder"
+msgstr "ブロック発見者"
+
+#: ../../../smarty.c:497
+msgid "Gettingstarted"
+msgstr "はじめに"
+
+#: ../../../smarty.c:500 ../../../smarty.c:581
 msgid "Getting Started Guide"
 msgstr "初めての方へ"
 
-#: ../../../smarty.c:488 ../../../smarty.c:569
+#: ../../../smarty.c:503 ../../../smarty.c:584
 msgid "Create account."
 msgstr "ユーザー登録"
 
-#: ../../../smarty.c:491 ../../../smarty.c:572
+#: ../../../smarty.c:506 ../../../smarty.c:587
 msgid ""
 "Register <a href=\"%1?page=register\">here</a>, or login if you already have "
 "account"
@@ -645,7 +665,7 @@ msgstr ""
 "まずは、ユーザー登録を<a href=“%1?page=register”>ここから</a>行なうか、既に"
 "ユーザーをお持ちの場合はログインをして下さい。"
 
-#: ../../../smarty.c:494 ../../../smarty.c:575
+#: ../../../smarty.c:509 ../../../smarty.c:590
 msgid ""
 "Create a <a href=\"%1?page=account&action=workers\">worker</a> that will be "
 "used by the miner to login"
@@ -653,16 +673,16 @@ msgstr ""
 "ユーザー登録を<a href=”%1”>こちらから</a>する事でコインを掘るためワーカー（採"
 "掘者）を作成できるようになります。"
 
-#: ../../../smarty.c:497 ../../../smarty.c:578
+#: ../../../smarty.c:512 ../../../smarty.c:593
 msgid "Download a miner."
 msgstr "マイナーのダウンロード（コインを掘るためのツールです）"
 
-#: ../../../smarty.c:500 ../../../smarty.c:503 ../../../smarty.c:581
-#: ../../../smarty.c:584
+#: ../../../smarty.c:515 ../../../smarty.c:518 ../../../smarty.c:596
+#: ../../../smarty.c:599
 msgid "<em>CGMiner %1:</em> <a href=\"%2\" target=\"_blank\">Download here</a>"
 msgstr "<em>CGMiner %1:</em> <a href=”%2” target=”_blank”>ダウンロード</a>"
 
-#: ../../../smarty.c:506 ../../../smarty.c:587
+#: ../../../smarty.c:521 ../../../smarty.c:602
 msgid ""
 "<em>CPU Miner %1:</em> precompiled binaries are available <a href=\"%2\" "
 "target=\"_blank\">Download here</a>"
@@ -670,40 +690,40 @@ msgstr ""
 "<em>CPU Miner %1:</em> プリコンパイルされたバイナリファイル <a href=”%2” "
 "target=”_blank”>ダウンロード</a>"
 
-#: ../../../smarty.c:509 ../../../smarty.c:590
+#: ../../../smarty.c:524 ../../../smarty.c:605
 msgid "Configure your miner."
 msgstr "マイナーの設定"
 
-#: ../../../smarty.c:512 ../../../smarty.c:593
+#: ../../../smarty.c:527 ../../../smarty.c:608
 msgid "Settings for Stratum (recommended):"
 msgstr "Stratumの設定 (推奨):"
 
-#: ../../../smarty.c:515 ../../../smarty.c:596
+#: ../../../smarty.c:530 ../../../smarty.c:611
 msgid "STRATUM"
 msgstr "STRATUM"
 
-#: ../../../smarty.c:518 ../../../smarty.c:599
+#: ../../../smarty.c:533 ../../../smarty.c:614
 msgid "PORT"
 msgstr "ポート番号"
 
-#: ../../../smarty.c:524 ../../../smarty.c:605 ../../../smarty.c:797
-#: ../../../smarty.c:809 ../../../smarty.c:821
+#: ../../../smarty.c:539 ../../../smarty.c:620 ../../../smarty.c:812
+#: ../../../smarty.c:824 ../../../smarty.c:836
 msgid "Password"
 msgstr "パスワード"
 
-#: ../../../smarty.c:530 ../../../smarty.c:611
+#: ../../../smarty.c:545 ../../../smarty.c:626
 msgid "If you use a command-line miner, type:"
 msgstr "コマンドラインでマイナーを使う場合 : "
 
-#: ../../../smarty.c:533 ../../../smarty.c:614
+#: ../../../smarty.c:548 ../../../smarty.c:629
 msgid "Weblogin"
 msgstr "ログインユーザー名"
 
-#: ../../../smarty.c:539 ../../../smarty.c:620
+#: ../../../smarty.c:554 ../../../smarty.c:635
 msgid "Worker password"
 msgstr "ワーカーのパスワード"
 
-#: ../../../smarty.c:542 ../../../smarty.c:623
+#: ../../../smarty.c:557 ../../../smarty.c:638
 msgid ""
 "If you want, you can create additional workers with usernames and passwords "
 "of your choice <a href=\"%1?page=account&action=workers\">Here</a>"
@@ -711,22 +731,22 @@ msgstr ""
 "新規にワーカーを作成したい場合は <a href=”%1?page=account&action=workers”>こ"
 "ちらの</a>リンクから、ワーカーを作成しパスワードを決める事ができます。"
 
-#: ../../../smarty.c:545 ../../../smarty.c:626
+#: ../../../smarty.c:560 ../../../smarty.c:641
 msgid "Create a %1 address to recieve payments."
 msgstr "支払い用のアドレスを作成します。"
 
-#: ../../../smarty.c:548 ../../../smarty.c:629
+#: ../../../smarty.c:563 ../../../smarty.c:644
 msgid ""
 "Generate a new address and input it on your account page to receive payments."
 msgstr ""
 "掘って手に入れたコインの支払いを貰う為には、支払い用のアドレスを生成する必要"
 "ができます。"
 
-#: ../../../smarty.c:551 ../../../smarty.c:632
+#: ../../../smarty.c:566 ../../../smarty.c:647
 msgid "Advanced cgminer settings / FAQ"
 msgstr "cgmainerの詳細な設定 / FAQ"
 
-#: ../../../smarty.c:554 ../../../smarty.c:635
+#: ../../../smarty.c:569 ../../../smarty.c:650
 #, fuzzy
 msgid ""
 "Don't set <b>intensity</b> too high, I=11 is standard and safest. Higher "
@@ -737,7 +757,7 @@ msgstr ""
 "intensity takes more GPU RAM. Check for <b>hardware errors</b> in cgminer "
 "(HW). HW=0 is good, otherwise lower intensity :)"
 
-#: ../../../smarty.c:557 ../../../smarty.c:638
+#: ../../../smarty.c:572 ../../../smarty.c:653
 #, fuzzy
 msgid ""
 "Set shaders according to the readme (or look at your graphic cards "
@@ -750,7 +770,7 @@ msgstr ""
 "concurrency</b>. Easiest way to get this optimized is to use same settings "
 "as others have used here: <a href=”%1”>here</a>."
 
-#: ../../../smarty.c:560 ../../../smarty.c:641
+#: ../../../smarty.c:575 ../../../smarty.c:656
 #, fuzzy
 msgid ""
 "There's also an interesting project which gives you a GUI for cgminer. "
@@ -759,7 +779,7 @@ msgstr ""
 "There’s also an interesting project which gives you a GUI for cgminer. "
 "Windows only it seems."
 
-#: ../../../smarty.c:563 ../../../smarty.c:644
+#: ../../../smarty.c:578 ../../../smarty.c:659
 msgid ""
 "Here's a great <a href=\"%1\" target=\"_blank\">guide</a> how to get up and "
 "running with Xubuntu."
@@ -767,441 +787,441 @@ msgstr ""
 "Xubuntuを使って、始める為方法が<a href=“%1”>こちらのサイト</a>で説明されてお"
 "ります。"
 
-#: ../../../smarty.c:647
+#: ../../../smarty.c:662
 msgid "Home"
 msgstr "ホーム"
 
-#: ../../../smarty.c:650
+#: ../../../smarty.c:665
 msgid "My Account"
 msgstr "アカウント"
 
-#: ../../../smarty.c:653
+#: ../../../smarty.c:668
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#: ../../../smarty.c:656
+#: ../../../smarty.c:671
 msgid "Edit Account"
 msgstr "アカウント編集"
 
-#: ../../../smarty.c:659
+#: ../../../smarty.c:674
 msgid "My Workers"
 msgstr "ワーカー（採掘者）"
 
-#: ../../../smarty.c:662 ../../../smarty.c:686
+#: ../../../smarty.c:677 ../../../smarty.c:701
 msgid "Transactions"
 msgstr "取引"
 
-#: ../../../smarty.c:665
+#: ../../../smarty.c:680
 msgid "Notifications"
 msgstr "通知"
 
-#: ../../../smarty.c:668
+#: ../../../smarty.c:683
 msgid "Invitations"
 msgstr "友達を招待"
 
-#: ../../../smarty.c:671
+#: ../../../smarty.c:686
 msgid "QR Codes"
 msgstr "QRコード"
 
-#: ../../../smarty.c:674
+#: ../../../smarty.c:689
 msgid "Admin Panel"
 msgstr "管理画面"
 
-#: ../../../smarty.c:677
+#: ../../../smarty.c:692
 msgid "Monitoring"
 msgstr "モニタリング"
 
-#: ../../../smarty.c:680
+#: ../../../smarty.c:695
 msgid "User Info"
 msgstr "ユーザー情報"
 
-#: ../../../smarty.c:683
+#: ../../../smarty.c:698
 msgid "Wallet Info"
 msgstr "ウォレット情報(財布)"
 
-#: ../../../smarty.c:692
+#: ../../../smarty.c:707
 msgid "News"
 msgstr "ニュース"
 
-#: ../../../smarty.c:695
+#: ../../../smarty.c:710
 msgid "Reports"
 msgstr "レポート"
 
-#: ../../../smarty.c:701 ../../../smarty.c:722 ../../../smarty.c:728
+#: ../../../smarty.c:716 ../../../smarty.c:737 ../../../smarty.c:743
 msgid "Statistics"
 msgstr "統計"
 
-#: ../../../smarty.c:707 ../../../smarty.c:731 ../../../smarty.c:854
-#: ../../../smarty.c:869
+#: ../../../smarty.c:722 ../../../smarty.c:746 ../../../smarty.c:869
+#: ../../../smarty.c:884
 msgid "Blocks"
 msgstr "ブロック"
 
-#: ../../../smarty.c:710
+#: ../../../smarty.c:725
 msgid "Graphs"
 msgstr "グラフ"
 
-#: ../../../smarty.c:713 ../../../smarty.c:734 ../../../smarty.c:1187
+#: ../../../smarty.c:728 ../../../smarty.c:749 ../../../smarty.c:1202
 msgid "Round"
 msgstr "ラウンド"
 
-#: ../../../smarty.c:716 ../../../smarty.c:737 ../../../smarty.c:887
-#: ../../../smarty.c:992 ../../../smarty.c:1154
+#: ../../../smarty.c:731 ../../../smarty.c:752 ../../../smarty.c:902
+#: ../../../smarty.c:1007 ../../../smarty.c:1169
 msgid "Finder"
 msgstr "発見者"
 
-#: ../../../smarty.c:719 ../../../smarty.c:740
+#: ../../../smarty.c:734 ../../../smarty.c:755
 msgid "Uptime"
 msgstr "更新間隔"
 
-#: ../../../smarty.c:743
+#: ../../../smarty.c:758
 msgid "Help"
 msgstr "ヘルプ"
 
-#: ../../../smarty.c:746
+#: ../../../smarty.c:761
 msgid "Getting Started"
 msgstr "はじめに"
 
-#: ../../../smarty.c:749
+#: ../../../smarty.c:764
 msgid "About"
 msgstr "アバウト"
 
-#: ../../../smarty.c:752
+#: ../../../smarty.c:767
 msgid "Donors"
 msgstr "提供者"
 
-#: ../../../smarty.c:755
+#: ../../../smarty.c:770
 msgid "Other"
 msgstr "その他"
 
-#: ../../../smarty.c:758 ../../../smarty.c:770
+#: ../../../smarty.c:773 ../../../smarty.c:785
 msgid "Support"
 msgstr "サポート"
 
-#: ../../../smarty.c:761
+#: ../../../smarty.c:776
 msgid "Logout"
 msgstr "ログアウト"
 
-#: ../../../smarty.c:764 ../../../smarty.c:803 ../../../smarty.c:812
+#: ../../../smarty.c:779 ../../../smarty.c:818 ../../../smarty.c:827
 msgid "Login"
 msgstr "ログイン"
 
-#: ../../../smarty.c:767
+#: ../../../smarty.c:782
 msgid "Sign Up"
 msgstr "ユーザー登録"
 
-#: ../../../smarty.c:773
+#: ../../../smarty.c:788
 msgid "LIVE STATS"
 msgstr "ライブ"
 
-#: ../../../smarty.c:776
+#: ../../../smarty.c:791
 msgid "Miners"
 msgstr "マイナー"
 
-#: ../../../smarty.c:779
+#: ../../../smarty.c:794
 msgid "Active Miners"
 msgstr "アクティブなマイナー"
 
-#: ../../../smarty.c:785
+#: ../../../smarty.c:800
 msgid "Welcome %1"
 msgstr "おかえり〜、%1様"
 
-#: ../../../smarty.c:788
+#: ../../../smarty.c:803
 msgid "Welcome Guest"
 msgstr "ようこそ、ゲストさん"
 
-#: ../../../smarty.c:791
+#: ../../../smarty.c:806
 msgid "Login with existing account"
 msgstr "ユーザー名を入力してログインボタンを押して下さい。"
 
-#: ../../../smarty.c:794
+#: ../../../smarty.c:809
 msgid "Username or E-Mail"
 msgstr "ユーザー名もしはメールアドレス"
 
-#: ../../../smarty.c:800
+#: ../../../smarty.c:815
 msgid "Forgot your password?"
 msgstr "パスワード忘れの場合"
 
-#: ../../../smarty.c:815
+#: ../../../smarty.c:830
 msgid "Register new account"
 msgstr "ユーザー登録フォーム"
 
-#: ../../../smarty.c:824
+#: ../../../smarty.c:839
 msgid "Repeat Password"
 msgstr "確認用パスワード"
 
-#: ../../../smarty.c:827
+#: ../../../smarty.c:842
 msgid "Email"
 msgstr "メールアドレス"
 
-#: ../../../smarty.c:830
+#: ../../../smarty.c:845
 msgid "Email Repeat"
 msgstr "確認用のメールアドレス"
 
-#: ../../../smarty.c:833
+#: ../../../smarty.c:848
 msgid "PIN"
 msgstr "４桁のPIN"
 
-#: ../../../smarty.c:836
+#: ../../../smarty.c:851
 msgid "4 digit number. <b>Remember this pin!</b>"
 msgstr ""
 "４桁の数字を入力して下さい。（入力した数字を忘れないようにして下さい。）"
 
-#: ../../../smarty.c:839
+#: ../../../smarty.c:854
 msgid "Register"
 msgstr "ユーザ登録"
 
-#: ../../../smarty.c:842
+#: ../../../smarty.c:857
 msgid "We are currently not accepting new user registrations."
 msgstr "現在新規ユーザーが登録できなくなっております。"
 
-#: ../../../smarty.c:845
+#: ../../../smarty.c:860
 msgid "Blocks found by own Workers"
 msgstr "ブロックを発見したワーカー"
 
-#: ../../../smarty.c:848 ../../../smarty.c:863 ../../../smarty.c:1061
-#: ../../../smarty.c:1076 ../../../smarty.c:1160
+#: ../../../smarty.c:863 ../../../smarty.c:878 ../../../smarty.c:1076
+#: ../../../smarty.c:1091 ../../../smarty.c:1175
 msgid "Rank"
 msgstr "順位"
 
-#: ../../../smarty.c:857 ../../../smarty.c:872
+#: ../../../smarty.c:872 ../../../smarty.c:887
 msgid "Coins Generated"
 msgstr "生成されたコインの数"
 
-#: ../../../smarty.c:860
+#: ../../../smarty.c:875
 msgid "Top 25 Blockfinder"
 msgstr "ブロック発見者 上位25人"
 
-#: ../../../smarty.c:875
+#: ../../../smarty.c:890
 msgid "Last"
 msgstr "直近"
 
-#: ../../../smarty.c:878
+#: ../../../smarty.c:893
 msgid "Blocks Found"
 msgstr "ブロックの履歴"
 
-#: ../../../smarty.c:884
+#: ../../../smarty.c:899
 msgid "Validity"
 msgstr "確実性"
 
-#: ../../../smarty.c:899
+#: ../../../smarty.c:914
 msgid "Expected Shares"
 msgstr "概算シェア数"
 
-#: ../../../smarty.c:902
+#: ../../../smarty.c:917
 msgid "PPLNS Shares"
 msgstr "PPLNS シェア数"
 
-#: ../../../smarty.c:905 ../../../smarty.c:998
+#: ../../../smarty.c:920 ../../../smarty.c:1013
 msgid "Actual Shares"
 msgstr "実際のシェア数"
 
-#: ../../../smarty.c:908 ../../../smarty.c:941
+#: ../../../smarty.c:923 ../../../smarty.c:956
 msgid "Percentage"
 msgstr "割合"
 
-#: ../../../smarty.c:911 ../../../smarty.c:1001
+#: ../../../smarty.c:926 ../../../smarty.c:1016
 msgid "Note: Round Earnings are not credited until"
 msgstr "発掘したコインは、ラウンドごとに"
 
-#: ../../../smarty.c:914 ../../../smarty.c:1004
+#: ../../../smarty.c:929 ../../../smarty.c:1019
 msgid "confirms.</li>"
 msgstr "回の確認が得られるまで承認されません。"
 
-#: ../../../smarty.c:917
+#: ../../../smarty.c:932
 msgid "Block Overview"
 msgstr "ブロック概要"
 
-#: ../../../smarty.c:920
+#: ../../../smarty.c:935
 msgid "Gen Est."
 msgstr "概算生成数"
 
-#: ../../../smarty.c:923
+#: ../../../smarty.c:938
 msgid "Found"
 msgstr "発見"
 
-#: ../../../smarty.c:926 ../../../smarty.c:1166
+#: ../../../smarty.c:941 ../../../smarty.c:1181
 msgid "Valid"
 msgstr "有効"
 
-#: ../../../smarty.c:929
+#: ../../../smarty.c:944
 #, fuzzy
 msgid "Orphan"
 msgstr "Orphaned"
 
-#: ../../../smarty.c:932
+#: ../../../smarty.c:947
 #, fuzzy
 msgid "Avg Diff"
 msgstr "差の平均"
 
-#: ../../../smarty.c:935
+#: ../../../smarty.c:950
 msgid "Shares Est."
 msgstr "概算シェア数"
 
-#: ../../../smarty.c:947
+#: ../../../smarty.c:962
 msgid "Rate Est."
 msgstr "概算速度"
 
-#: ../../../smarty.c:950
+#: ../../../smarty.c:965
 msgid "All Time"
 msgstr "全期間"
 
-#: ../../../smarty.c:953
+#: ../../../smarty.c:968
 msgid "Last Hour"
 msgstr "直近1時間"
 
-#: ../../../smarty.c:956
+#: ../../../smarty.c:971
 msgid "Last 24 Hours"
 msgstr "直近24時間"
 
-#: ../../../smarty.c:959
+#: ../../../smarty.c:974
 msgid "Last 7 Days"
 msgstr "直近7日"
 
-#: ../../../smarty.c:962
+#: ../../../smarty.c:977
 msgid "Last 4 Weeks"
 msgstr "直近4週間"
 
-#: ../../../smarty.c:965
+#: ../../../smarty.c:980
 msgid "Last 12 Month"
 msgstr "直近12カ月"
 
-#: ../../../smarty.c:968 ../../../smarty.c:971
+#: ../../../smarty.c:983 ../../../smarty.c:986
 msgid "Block Shares"
 msgstr "ブロックのシェア数"
 
-#: ../../../smarty.c:974
+#: ../../../smarty.c:989
 msgid "Expected"
 msgstr "予測"
 
-#: ../../../smarty.c:977
+#: ../../../smarty.c:992
 msgid "Actual"
 msgstr "実際"
 
-#: ../../../smarty.c:980
+#: ../../../smarty.c:995
 msgid "Average"
 msgstr "平均"
 
-#: ../../../smarty.c:983
+#: ../../../smarty.c:998
 msgid ""
 "The graph above illustrates N shares to find a block vs. E Shares expected "
 "to find a block based on target and network difficulty and assuming a zero "
 "variance scenario."
 msgstr ""
 
-#: ../../../smarty.c:986
+#: ../../../smarty.c:1001
 msgid "Last Found Blocks"
 msgstr "最近発見されたブロック"
 
-#: ../../../smarty.c:1007 ../../../smarty.c:1085
+#: ../../../smarty.c:1022 ../../../smarty.c:1100
 msgid "General Statistics"
 msgstr "統計 (一般)"
 
-#: ../../../smarty.c:1010 ../../../smarty.c:1088
+#: ../../../smarty.c:1025 ../../../smarty.c:1103
 msgid "Pool Hash Rate"
 msgstr "プールのハッシュ速度"
 
-#: ../../../smarty.c:1013
+#: ../../../smarty.c:1028
 msgid "Current Total Miners"
 msgstr "現在の総ワーカー数"
 
-#: ../../../smarty.c:1019 ../../../smarty.c:1097
+#: ../../../smarty.c:1034 ../../../smarty.c:1112
 msgid "Current Difficulty"
 msgstr "現在の難易度"
 
-#: ../../../smarty.c:1022 ../../../smarty.c:1127
+#: ../../../smarty.c:1037 ../../../smarty.c:1142
 msgid "These stats are also available in JSON format"
 msgstr "JSONフォーマットでも状態を見ることができます"
 
-#: ../../../smarty.c:1025 ../../../smarty.c:1130
+#: ../../../smarty.c:1040 ../../../smarty.c:1145
 msgid "HERE"
 msgstr "(リンク)"
 
-#: ../../../smarty.c:1028
+#: ../../../smarty.c:1043
 msgid "Your vs Pool Hashrate"
 msgstr "自分とプールのハッシュ速度の比較"
 
-#: ../../../smarty.c:1037
+#: ../../../smarty.c:1052
 msgid "Mine"
 msgstr "自分"
 
-#: ../../../smarty.c:1043
+#: ../../../smarty.c:1058
 msgid "Both"
 msgstr "両方"
 
-#: ../../../smarty.c:1046
+#: ../../../smarty.c:1061
 msgid "Your Hashrate"
 msgstr "自分のハッシュ速度"
 
-#: ../../../smarty.c:1058
+#: ../../../smarty.c:1073
 msgid "Contributor Hashrates"
 msgstr "ユーザーのハッシュ速度"
 
-#: ../../../smarty.c:1064 ../../../smarty.c:1079 ../../../smarty.c:1163
-#: ../../../smarty.c:1178
+#: ../../../smarty.c:1079 ../../../smarty.c:1094 ../../../smarty.c:1178
+#: ../../../smarty.c:1193
 msgid "User Name"
 msgstr "ユーザー名"
 
-#: ../../../smarty.c:1067 ../../../smarty.c:1070
+#: ../../../smarty.c:1082 ../../../smarty.c:1085
 msgid "Day"
 msgstr "日"
 
-#: ../../../smarty.c:1073
+#: ../../../smarty.c:1088
 msgid "Contributor Shares"
 msgstr "ユーザーのシェア数"
 
-#: ../../../smarty.c:1091
+#: ../../../smarty.c:1106
 msgid "Pool Efficiency"
 msgstr "プールの稼働効率"
 
-#: ../../../smarty.c:1094
+#: ../../../smarty.c:1109
 msgid "Current Active Workers"
 msgstr "現在アクティブなワーカーの数"
 
-#: ../../../smarty.c:1100
+#: ../../../smarty.c:1115
 msgid "Est. Avg. Time per Round"
 msgstr "このラウンドの終了時間 (概算)"
 
-#: ../../../smarty.c:1103
+#: ../../../smarty.c:1118
 msgid "Est. Shares this Round"
 msgstr "このラウンドのシェア数 (概算)"
 
-#: ../../../smarty.c:1109 ../../../smarty.c:1115
+#: ../../../smarty.c:1124 ../../../smarty.c:1130
 msgid "Next Network Block"
 msgstr "次のネットワークブロック番号"
 
-#: ../../../smarty.c:1112 ../../../smarty.c:1118
+#: ../../../smarty.c:1127 ../../../smarty.c:1133
 msgid "Current"
 msgstr "現在"
 
-#: ../../../smarty.c:1121
+#: ../../../smarty.c:1136
 msgid "Last Block Found"
 msgstr "発見されたブロックの数"
 
-#: ../../../smarty.c:1124
+#: ../../../smarty.c:1139
 msgid "Time Since Last Block"
 msgstr "最終ブロック発見後の経過時間"
 
-#: ../../../smarty.c:1133
+#: ../../../smarty.c:1148
 msgid "Block Statistics"
 msgstr "ブロックの統計"
 
-#: ../../../smarty.c:1136
+#: ../../../smarty.c:1151
 msgid "Height"
 msgstr "高さ"
 
-#: ../../../smarty.c:1142
+#: ../../../smarty.c:1157
 msgid "Confirmations"
 msgstr "確認された数"
 
-#: ../../../smarty.c:1169 ../../../smarty.c:1172
+#: ../../../smarty.c:1184 ../../../smarty.c:1187
 msgid "Invalid"
 msgstr "無効"
 
-#: ../../../smarty.c:1175
+#: ../../../smarty.c:1190
 msgid "Round Transactions"
 msgstr "ラウンドの取引数"
 
-#: ../../../smarty.c:1193
+#: ../../../smarty.c:1208
 msgid "Contact &amp; Support"
 msgstr "コンタクト &amp; サポート"
 
