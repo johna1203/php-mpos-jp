@@ -115,6 +115,9 @@ class RoundStats extends Base {
       while ($row = $result->fetch_assoc()) {
         $aData[$row['id']] = $row;
       }
+      if (!isset($aData)) {
+        $aData = array();
+      }
       return $aData;
     }
     return $this->sqlError();
